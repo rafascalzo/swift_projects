@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		687144FAAC4B225226446213 /* Pods_FirebaseCloudMessaging_FirebaseCloudMessagingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B903D235EC3F23A795149A44 /* Pods_FirebaseCloudMessaging_FirebaseCloudMessagingUITests.framework */; };
+		899A714925DEA388000AE0DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A714825DEA388000AE0DF /* AppDelegate.swift */; };
+		899A714D25DEA388000AE0DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A714C25DEA388000AE0DF /* ViewController.swift */; };
+		899A715225DEA38A000AE0DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899A715125DEA38A000AE0DF /* Assets.xcassets */; };
+		899A715525DEA38A000AE0DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899A715325DEA38A000AE0DF /* LaunchScreen.storyboard */; };
+		899A716025DEA38A000AE0DF /* FirebaseCloudMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A715F25DEA38A000AE0DF /* FirebaseCloudMessagingTests.swift */; };
+		899A716B25DEA38A000AE0DF /* FirebaseCloudMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899A716A25DEA38A000AE0DF /* FirebaseCloudMessagingUITests.swift */; };
+		89CD367125E05E5E00B87DFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89CD367025E05E5E00B87DFF /* GoogleService-Info.plist */; };
+		AA37AFA7633E093CDD3C1770 /* Pods_FirebaseCloudMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B345834DB182D44718843E72 /* Pods_FirebaseCloudMessaging.framework */; };
+		BAA8ABA20C32C60EEC0B92DF /* Pods_FirebaseCloudMessagingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680530DCF07ECA61667A30CB /* Pods_FirebaseCloudMessagingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		899A715C25DEA38A000AE0DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899A713D25DEA388000AE0DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899A714425DEA388000AE0DF;
+			remoteInfo = FirebaseCloudMessaging;
+		};
+		899A716725DEA38A000AE0DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 899A713D25DEA388000AE0DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 899A714425DEA388000AE0DF;
+			remoteInfo = FirebaseCloudMessaging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166276C5F80E6CF0D752E750 /* Pods-FirebaseCloudMessaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCloudMessaging.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseCloudMessaging/Pods-FirebaseCloudMessaging.debug.xcconfig"; sourceTree = "<group>"; };
+		54492906D7F839488C334F7D /* Pods-FirebaseCloudMessagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCloudMessagingTests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseCloudMessagingTests/Pods-FirebaseCloudMessagingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		680530DCF07ECA61667A30CB /* Pods_FirebaseCloudMessagingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseCloudMessagingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C96F177A21FED48BA6E2843 /* Pods-FirebaseCloudMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCloudMessaging.release.xcconfig"; path = "Target Support Files/Pods-FirebaseCloudMessaging/Pods-FirebaseCloudMessaging.release.xcconfig"; sourceTree = "<group>"; };
+		896E70764ABBD7497F3C8363 /* Pods-FirebaseCloudMessagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCloudMessagingTests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseCloudMessagingTests/Pods-FirebaseCloudMessagingTests.release.xcconfig"; sourceTree = "<group>"; };
+		899A714525DEA388000AE0DF /* FirebaseCloudMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseCloudMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		899A714825DEA388000AE0DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		899A714C25DEA388000AE0DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		899A715125DEA38A000AE0DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		899A715425DEA38A000AE0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		899A715625DEA38A000AE0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899A715B25DEA38A000AE0DF /* FirebaseCloudMessagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseCloudMessagingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899A715F25DEA38A000AE0DF /* FirebaseCloudMessagingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCloudMessagingTests.swift; sourceTree = "<group>"; };
+		899A716125DEA38A000AE0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899A716625DEA38A000AE0DF /* FirebaseCloudMessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseCloudMessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		899A716A25DEA38A000AE0DF /* FirebaseCloudMessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCloudMessagingUITests.swift; sourceTree = "<group>"; };
+		899A716C25DEA38A000AE0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CD365C25E05D3200B87DFF /* FirebaseCloudMessaging.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseCloudMessaging.entitlements; sourceTree = "<group>"; };
+		89CD366325E05DAA00B87DFF /* FirebaseCloudMessagingDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseCloudMessagingDebug.entitlements; sourceTree = "<group>"; };
+		89CD367025E05E5E00B87DFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9FBB7E2F0E930AE66E078454 /* Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B345834DB182D44718843E72 /* Pods_FirebaseCloudMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseCloudMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B903D235EC3F23A795149A44 /* Pods_FirebaseCloudMessaging_FirebaseCloudMessagingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseCloudMessaging_FirebaseCloudMessagingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD25002E20743FA8F7C0CB66 /* Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		899A714225DEA388000AE0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA37AFA7633E093CDD3C1770 /* Pods_FirebaseCloudMessaging.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A715825DEA38A000AE0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAA8ABA20C32C60EEC0B92DF /* Pods_FirebaseCloudMessagingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A716325DEA38A000AE0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687144FAAC4B225226446213 /* Pods_FirebaseCloudMessaging_FirebaseCloudMessagingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D489AEDF6398981889FFB61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166276C5F80E6CF0D752E750 /* Pods-FirebaseCloudMessaging.debug.xcconfig */,
+				7C96F177A21FED48BA6E2843 /* Pods-FirebaseCloudMessaging.release.xcconfig */,
+				9FBB7E2F0E930AE66E078454 /* Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.debug.xcconfig */,
+				FD25002E20743FA8F7C0CB66 /* Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.release.xcconfig */,
+				54492906D7F839488C334F7D /* Pods-FirebaseCloudMessagingTests.debug.xcconfig */,
+				896E70764ABBD7497F3C8363 /* Pods-FirebaseCloudMessagingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		899A713C25DEA388000AE0DF = {
+			isa = PBXGroup;
+			children = (
+				899A714725DEA388000AE0DF /* FirebaseCloudMessaging */,
+				899A715E25DEA38A000AE0DF /* FirebaseCloudMessagingTests */,
+				899A716925DEA38A000AE0DF /* FirebaseCloudMessagingUITests */,
+				899A714625DEA388000AE0DF /* Products */,
+				0D489AEDF6398981889FFB61 /* Pods */,
+				8F4F2AF8460DC153DDD35BE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		899A714625DEA388000AE0DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				899A714525DEA388000AE0DF /* FirebaseCloudMessaging.app */,
+				899A715B25DEA38A000AE0DF /* FirebaseCloudMessagingTests.xctest */,
+				899A716625DEA38A000AE0DF /* FirebaseCloudMessagingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		899A714725DEA388000AE0DF /* FirebaseCloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				89CD366325E05DAA00B87DFF /* FirebaseCloudMessagingDebug.entitlements */,
+				89CD365C25E05D3200B87DFF /* FirebaseCloudMessaging.entitlements */,
+				899A714825DEA388000AE0DF /* AppDelegate.swift */,
+				899A714C25DEA388000AE0DF /* ViewController.swift */,
+				899A715125DEA38A000AE0DF /* Assets.xcassets */,
+				89CD367025E05E5E00B87DFF /* GoogleService-Info.plist */,
+				899A715325DEA38A000AE0DF /* LaunchScreen.storyboard */,
+				899A715625DEA38A000AE0DF /* Info.plist */,
+			);
+			path = FirebaseCloudMessaging;
+			sourceTree = "<group>";
+		};
+		899A715E25DEA38A000AE0DF /* FirebaseCloudMessagingTests */ = {
+			isa = PBXGroup;
+			children = (
+				899A715F25DEA38A000AE0DF /* FirebaseCloudMessagingTests.swift */,
+				899A716125DEA38A000AE0DF /* Info.plist */,
+			);
+			path = FirebaseCloudMessagingTests;
+			sourceTree = "<group>";
+		};
+		899A716925DEA38A000AE0DF /* FirebaseCloudMessagingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				899A716A25DEA38A000AE0DF /* FirebaseCloudMessagingUITests.swift */,
+				899A716C25DEA38A000AE0DF /* Info.plist */,
+			);
+			path = FirebaseCloudMessagingUITests;
+			sourceTree = "<group>";
+		};
+		8F4F2AF8460DC153DDD35BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B345834DB182D44718843E72 /* Pods_FirebaseCloudMessaging.framework */,
+				B903D235EC3F23A795149A44 /* Pods_FirebaseCloudMessaging_FirebaseCloudMessagingUITests.framework */,
+				680530DCF07ECA61667A30CB /* Pods_FirebaseCloudMessagingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		899A714425DEA388000AE0DF /* FirebaseCloudMessaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899A716F25DEA38A000AE0DF /* Build configuration list for PBXNativeTarget "FirebaseCloudMessaging" */;
+			buildPhases = (
+				C227D0BEAA10A7FB6F7D8739 /* [CP] Check Pods Manifest.lock */,
+				899A714125DEA388000AE0DF /* Sources */,
+				899A714225DEA388000AE0DF /* Frameworks */,
+				899A714325DEA388000AE0DF /* Resources */,
+				D22F95DAB78E0A579D367EE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseCloudMessaging;
+			productName = FirebaseCloudMessaging;
+			productReference = 899A714525DEA388000AE0DF /* FirebaseCloudMessaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+		899A715A25DEA38A000AE0DF /* FirebaseCloudMessagingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899A717225DEA38A000AE0DF /* Build configuration list for PBXNativeTarget "FirebaseCloudMessagingTests" */;
+			buildPhases = (
+				D094C1F2F3CF6B4718360D62 /* [CP] Check Pods Manifest.lock */,
+				899A715725DEA38A000AE0DF /* Sources */,
+				899A715825DEA38A000AE0DF /* Frameworks */,
+				899A715925DEA38A000AE0DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899A715D25DEA38A000AE0DF /* PBXTargetDependency */,
+			);
+			name = FirebaseCloudMessagingTests;
+			productName = FirebaseCloudMessagingTests;
+			productReference = 899A715B25DEA38A000AE0DF /* FirebaseCloudMessagingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		899A716525DEA38A000AE0DF /* FirebaseCloudMessagingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899A717525DEA38A000AE0DF /* Build configuration list for PBXNativeTarget "FirebaseCloudMessagingUITests" */;
+			buildPhases = (
+				AC48069A4185065B09329536 /* [CP] Check Pods Manifest.lock */,
+				899A716225DEA38A000AE0DF /* Sources */,
+				899A716325DEA38A000AE0DF /* Frameworks */,
+				899A716425DEA38A000AE0DF /* Resources */,
+				65CBE425101FB79F8152F958 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				899A716825DEA38A000AE0DF /* PBXTargetDependency */,
+			);
+			name = FirebaseCloudMessagingUITests;
+			productName = FirebaseCloudMessagingUITests;
+			productReference = 899A716625DEA38A000AE0DF /* FirebaseCloudMessagingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		899A713D25DEA388000AE0DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					899A714425DEA388000AE0DF = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					899A715A25DEA38A000AE0DF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 899A714425DEA388000AE0DF;
+					};
+					899A716525DEA38A000AE0DF = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 899A714425DEA388000AE0DF;
+					};
+				};
+			};
+			buildConfigurationList = 899A714025DEA388000AE0DF /* Build configuration list for PBXProject "FirebaseCloudMessaging" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 899A713C25DEA388000AE0DF;
+			productRefGroup = 899A714625DEA388000AE0DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				899A714425DEA388000AE0DF /* FirebaseCloudMessaging */,
+				899A715A25DEA38A000AE0DF /* FirebaseCloudMessagingTests */,
+				899A716525DEA38A000AE0DF /* FirebaseCloudMessagingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899A714325DEA388000AE0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899A715525DEA38A000AE0DF /* LaunchScreen.storyboard in Resources */,
+				899A715225DEA38A000AE0DF /* Assets.xcassets in Resources */,
+				89CD367125E05E5E00B87DFF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A715925DEA38A000AE0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A716425DEA38A000AE0DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65CBE425101FB79F8152F958 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC48069A4185065B09329536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C227D0BEAA10A7FB6F7D8739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseCloudMessaging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D094C1F2F3CF6B4718360D62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseCloudMessagingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D22F95DAB78E0A579D367EE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseCloudMessaging/Pods-FirebaseCloudMessaging-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FirebaseCloudMessaging/Pods-FirebaseCloudMessaging-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FirebaseCloudMessaging/Pods-FirebaseCloudMessaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		899A714125DEA388000AE0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899A714D25DEA388000AE0DF /* ViewController.swift in Sources */,
+				899A714925DEA388000AE0DF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A715725DEA38A000AE0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899A716025DEA38A000AE0DF /* FirebaseCloudMessagingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		899A716225DEA38A000AE0DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899A716B25DEA38A000AE0DF /* FirebaseCloudMessagingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		899A715D25DEA38A000AE0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899A714425DEA388000AE0DF /* FirebaseCloudMessaging */;
+			targetProxy = 899A715C25DEA38A000AE0DF /* PBXContainerItemProxy */;
+		};
+		899A716825DEA38A000AE0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 899A714425DEA388000AE0DF /* FirebaseCloudMessaging */;
+			targetProxy = 899A716725DEA38A000AE0DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		899A715325DEA38A000AE0DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				899A715425DEA38A000AE0DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		899A716D25DEA38A000AE0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		899A716E25DEA38A000AE0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		899A717025DEA38A000AE0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166276C5F80E6CF0D752E750 /* Pods-FirebaseCloudMessaging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FirebaseCloudMessaging/FirebaseCloudMessagingDebug.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G625UPV6D7;
+				INFOPLIST_FILE = FirebaseCloudMessaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulltrack.firebasePushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		899A717125DEA38A000AE0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C96F177A21FED48BA6E2843 /* Pods-FirebaseCloudMessaging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FirebaseCloudMessaging/FirebaseCloudMessaging.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BULGWQVW95;
+				INFOPLIST_FILE = FirebaseCloudMessaging/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-rafascalzo.FirebaseCloudMessaging";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		899A717325DEA38A000AE0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54492906D7F839488C334F7D /* Pods-FirebaseCloudMessagingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseCloudMessagingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-rafascalzo.FirebaseCloudMessagingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseCloudMessaging.app/FirebaseCloudMessaging";
+			};
+			name = Debug;
+		};
+		899A717425DEA38A000AE0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896E70764ABBD7497F3C8363 /* Pods-FirebaseCloudMessagingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseCloudMessagingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-rafascalzo.FirebaseCloudMessagingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseCloudMessaging.app/FirebaseCloudMessaging";
+			};
+			name = Release;
+		};
+		899A717625DEA38A000AE0DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBB7E2F0E930AE66E078454 /* Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseCloudMessagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-rafascalzo.FirebaseCloudMessagingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseCloudMessaging;
+			};
+			name = Debug;
+		};
+		899A717725DEA38A000AE0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD25002E20743FA8F7C0CB66 /* Pods-FirebaseCloudMessaging-FirebaseCloudMessagingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FirebaseCloudMessagingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github-rafascalzo.FirebaseCloudMessagingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseCloudMessaging;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		899A714025DEA388000AE0DF /* Build configuration list for PBXProject "FirebaseCloudMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899A716D25DEA38A000AE0DF /* Debug */,
+				899A716E25DEA38A000AE0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899A716F25DEA38A000AE0DF /* Build configuration list for PBXNativeTarget "FirebaseCloudMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899A717025DEA38A000AE0DF /* Debug */,
+				899A717125DEA38A000AE0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899A717225DEA38A000AE0DF /* Build configuration list for PBXNativeTarget "FirebaseCloudMessagingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899A717325DEA38A000AE0DF /* Debug */,
+				899A717425DEA38A000AE0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899A717525DEA38A000AE0DF /* Build configuration list for PBXNativeTarget "FirebaseCloudMessagingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				899A717625DEA38A000AE0DF /* Debug */,
+				899A717725DEA38A000AE0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 899A713D25DEA388000AE0DF /* Project object */;
+}

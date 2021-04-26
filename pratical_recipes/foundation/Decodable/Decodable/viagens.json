@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "titulo": "Ceará",
+        "quantidade_de_dias" : 3,
+        "preco" : "1.800,00",
+        "localizacao" : "Praia da canoa quebrada"
+    },
+    {
+        "id" :2,
+        "titulo": "California",
+        "quantidade_de_dias" : 4,
+        "preco" : "7.600,00",
+        "localizacao" : "Pirituba"
+    },
+    {
+        "id" :3,
+        "titulo": "Europa",
+        "quantidade_de_dias" : 12,
+        "preco" : "12.800,00",
+        "localizacao" : "Paris"
+    }
+]

@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811D5005B619CFA1AEABCFCB /* Pods_Viper_Geocode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D32943A92A7231FD9CE6F20 /* Pods_Viper_Geocode.framework */; };
+		AF00D11122FF9856000C6B41 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF00D11022FF9856000C6B41 /* Alert.swift */; };
+		AFDA62FE22FF27EC00387575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA62FD22FF27EC00387575 /* AppDelegate.swift */; };
+		AFDA630622FF27EC00387575 /* Viper_Geocode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFDA630422FF27EC00387575 /* Viper_Geocode.xcdatamodeld */; };
+		AFDA630822FF27ED00387575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA630722FF27ED00387575 /* Assets.xcassets */; };
+		AFDA630B22FF27ED00387575 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDA630922FF27ED00387575 /* LaunchScreen.storyboard */; };
+		AFDA631C22FF329100387575 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA631B22FF329100387575 /* MapView.swift */; };
+		AFDA631E22FF364700387575 /* MapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA631D22FF364700387575 /* MapProtocols.swift */; };
+		AFDA632022FF395500387575 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA631F22FF395500387575 /* MapInteractor.swift */; };
+		AFDA632222FF3D4900387575 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632122FF3D4900387575 /* MapPresenter.swift */; };
+		AFDA632422FF420300387575 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632322FF420300387575 /* Pin.swift */; };
+		AFDA632622FF426600387575 /* PinMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632522FF426600387575 /* PinMarkerView.swift */; };
+		AFDA632822FF429E00387575 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632722FF429E00387575 /* PinView.swift */; };
+		AFDA632A22FF456900387575 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632922FF456900387575 /* Debouncer.swift */; };
+		AFDA632C22FF671900387575 /* MapWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632B22FF671900387575 /* MapWireframe.swift */; };
+		AFDA632F22FF6D5200387575 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA632E22FF6D5200387575 /* Common.swift */; };
+		AFDA633222FF6EE900387575 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA633122FF6EE900387575 /* CoreDataManager.swift */; };
+		AFDA633422FF71D300387575 /* PinDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA633322FF71D300387575 /* PinDAO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D32943A92A7231FD9CE6F20 /* Pods_Viper_Geocode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viper_Geocode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE2FBB42602D1AD0119D8E /* Pods-Viper Geocode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper Geocode.release.xcconfig"; path = "Target Support Files/Pods-Viper Geocode/Pods-Viper Geocode.release.xcconfig"; sourceTree = "<group>"; };
+		ABA94ED2CC6FD711B19F3FF3 /* Pods-Viper Geocode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viper Geocode.debug.xcconfig"; path = "Target Support Files/Pods-Viper Geocode/Pods-Viper Geocode.debug.xcconfig"; sourceTree = "<group>"; };
+		AF00D11022FF9856000C6B41 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		AFDA62FA22FF27EC00387575 /* Viper Geocode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper Geocode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA62FD22FF27EC00387575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFDA630522FF27EC00387575 /* Viper_Geocode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Viper_Geocode.xcdatamodel; sourceTree = "<group>"; };
+		AFDA630722FF27ED00387575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFDA630A22FF27ED00387575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFDA630C22FF27ED00387575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA631B22FF329100387575 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AFDA631D22FF364700387575 /* MapProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProtocols.swift; sourceTree = "<group>"; };
+		AFDA631F22FF395500387575 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		AFDA632122FF3D4900387575 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		AFDA632322FF420300387575 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		AFDA632522FF426600387575 /* PinMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinMarkerView.swift; sourceTree = "<group>"; };
+		AFDA632722FF429E00387575 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		AFDA632922FF456900387575 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		AFDA632B22FF671900387575 /* MapWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapWireframe.swift; sourceTree = "<group>"; };
+		AFDA632E22FF6D5200387575 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		AFDA633122FF6EE900387575 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		AFDA633322FF71D300387575 /* PinDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinDAO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDA62F722FF27EC00387575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811D5005B619CFA1AEABCFCB /* Pods_Viper_Geocode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08C0E67C36C50ABDDC9BA2D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABA94ED2CC6FD711B19F3FF3 /* Pods-Viper Geocode.debug.xcconfig */,
+				72AE2FBB42602D1AD0119D8E /* Pods-Viper Geocode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFDA62F122FF27EC00387575 = {
+			isa = PBXGroup;
+			children = (
+				AFDA62FC22FF27EC00387575 /* Viper Geocode */,
+				AFDA62FB22FF27EC00387575 /* Products */,
+				08C0E67C36C50ABDDC9BA2D5 /* Pods */,
+				CBFB2E9CB38181A7EF8B81AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDA62FB22FF27EC00387575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA62FA22FF27EC00387575 /* Viper Geocode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDA62FC22FF27EC00387575 /* Viper Geocode */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA631322FF29F200387575 /* Main */,
+				AFDA631222FF296700387575 /* Supporting Files */,
+			);
+			path = "Viper Geocode";
+			sourceTree = "<group>";
+		};
+		AFDA631222FF296700387575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA62FD22FF27EC00387575 /* AppDelegate.swift */,
+				AFDA630722FF27ED00387575 /* Assets.xcassets */,
+				AFDA630922FF27ED00387575 /* LaunchScreen.storyboard */,
+				AFDA630C22FF27ED00387575 /* Info.plist */,
+				AFDA632922FF456900387575 /* Debouncer.swift */,
+				AF00D11022FF9856000C6B41 /* Alert.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFDA631322FF29F200387575 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA633022FF6EAA00387575 /* DataBase */,
+				AFDA631A22FF2A7000387575 /* Common */,
+				AFDA631922FF2A6A00387575 /* View */,
+				AFDA631822FF2A3900387575 /* Interactor */,
+				AFDA631722FF2A2E00387575 /* Presenter */,
+				AFDA631622FF2A2600387575 /* Entity */,
+				AFDA631522FF2A0C00387575 /* WireFrame */,
+				AFDA631422FF2A0500387575 /* Protocols */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AFDA631422FF2A0500387575 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA631D22FF364700387575 /* MapProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AFDA631522FF2A0C00387575 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA632B22FF671900387575 /* MapWireframe.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		AFDA631622FF2A2600387575 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA632322FF420300387575 /* Pin.swift */,
+				AFDA632522FF426600387575 /* PinMarkerView.swift */,
+				AFDA632722FF429E00387575 /* PinView.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		AFDA631722FF2A2E00387575 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA632122FF3D4900387575 /* MapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		AFDA631822FF2A3900387575 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA631F22FF395500387575 /* MapInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		AFDA631922FF2A6A00387575 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA631B22FF329100387575 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFDA631A22FF2A7000387575 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA632E22FF6D5200387575 /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AFDA633022FF6EAA00387575 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA630422FF27EC00387575 /* Viper_Geocode.xcdatamodeld */,
+				AFDA633122FF6EE900387575 /* CoreDataManager.swift */,
+				AFDA633322FF71D300387575 /* PinDAO.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		CBFB2E9CB38181A7EF8B81AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D32943A92A7231FD9CE6F20 /* Pods_Viper_Geocode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDA62F922FF27EC00387575 /* Viper Geocode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA630F22FF27ED00387575 /* Build configuration list for PBXNativeTarget "Viper Geocode" */;
+			buildPhases = (
+				5E36F177B64E42D1DBBDEA31 /* [CP] Check Pods Manifest.lock */,
+				AFDA62F622FF27EC00387575 /* Sources */,
+				AFDA62F722FF27EC00387575 /* Frameworks */,
+				AFDA62F822FF27EC00387575 /* Resources */,
+				AA641A4BBF31B0ABD52C58F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viper Geocode";
+			productName = "Viper Geocode";
+			productReference = AFDA62FA22FF27EC00387575 /* Viper Geocode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDA62F222FF27EC00387575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rafaeldelegate;
+				TargetAttributes = {
+					AFDA62F922FF27EC00387575 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AFDA62F522FF27EC00387575 /* Build configuration list for PBXProject "Viper Geocode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFDA62F122FF27EC00387575;
+			productRefGroup = AFDA62FB22FF27EC00387575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDA62F922FF27EC00387575 /* Viper Geocode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDA62F822FF27EC00387575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA630B22FF27ED00387575 /* LaunchScreen.storyboard in Resources */,
+				AFDA630822FF27ED00387575 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E36F177B64E42D1DBBDEA31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viper Geocode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA641A4BBF31B0ABD52C58F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viper Geocode/Pods-Viper Geocode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viper Geocode/Pods-Viper Geocode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viper Geocode/Pods-Viper Geocode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDA62F622FF27EC00387575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA632422FF420300387575 /* Pin.swift in Sources */,
+				AFDA631E22FF364700387575 /* MapProtocols.swift in Sources */,
+				AFDA632622FF426600387575 /* PinMarkerView.swift in Sources */,
+				AF00D11122FF9856000C6B41 /* Alert.swift in Sources */,
+				AFDA632A22FF456900387575 /* Debouncer.swift in Sources */,
+				AFDA632F22FF6D5200387575 /* Common.swift in Sources */,
+				AFDA630622FF27EC00387575 /* Viper_Geocode.xcdatamodeld in Sources */,
+				AFDA62FE22FF27EC00387575 /* AppDelegate.swift in Sources */,
+				AFDA633222FF6EE900387575 /* CoreDataManager.swift in Sources */,
+				AFDA633422FF71D300387575 /* PinDAO.swift in Sources */,
+				AFDA632822FF429E00387575 /* PinView.swift in Sources */,
+				AFDA632022FF395500387575 /* MapInteractor.swift in Sources */,
+				AFDA632C22FF671900387575 /* MapWireframe.swift in Sources */,
+				AFDA631C22FF329100387575 /* MapView.swift in Sources */,
+				AFDA632222FF3D4900387575 /* MapPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFDA630922FF27ED00387575 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDA630A22FF27ED00387575 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFDA630D22FF27ED00387575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFDA630E22FF27ED00387575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDA631022FF27ED00387575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA94ED2CC6FD711B19F3FF3 /* Pods-Viper Geocode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Viper Geocode/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafaelviewcontroller.Viper-Geocode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDA631122FF27ED00387575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AE2FBB42602D1AD0119D8E /* Pods-Viper Geocode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Viper Geocode/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafaelviewcontroller.Viper-Geocode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDA62F522FF27EC00387575 /* Build configuration list for PBXProject "Viper Geocode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA630D22FF27ED00387575 /* Debug */,
+				AFDA630E22FF27ED00387575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA630F22FF27ED00387575 /* Build configuration list for PBXNativeTarget "Viper Geocode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA631022FF27ED00387575 /* Debug */,
+				AFDA631122FF27ED00387575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFDA630422FF27EC00387575 /* Viper_Geocode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFDA630522FF27EC00387575 /* Viper_Geocode.xcdatamodel */,
+			);
+			currentVersion = AFDA630522FF27EC00387575 /* Viper_Geocode.xcdatamodel */;
+			path = Viper_Geocode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFDA62F222FF27EC00387575 /* Project object */;
+}

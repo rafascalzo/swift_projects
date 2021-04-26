@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Cep/Pods-Cep-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework

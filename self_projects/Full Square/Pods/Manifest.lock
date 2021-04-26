@@ -1,0 +1,33 @@
+PODS:
+  - GoogleMaps (3.3.0):
+    - GoogleMaps/Maps (= 3.3.0)
+  - GoogleMaps/Base (3.3.0)
+  - GoogleMaps/Maps (3.3.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.3.0):
+    - GoogleMaps/Base (= 3.3.0)
+  - lottie-ios (3.1.2)
+  - SnapKit (5.0.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - GooglePlaces
+  - lottie-ios
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - lottie-ios
+    - SnapKit
+
+SPEC CHECKSUMS:
+  GoogleMaps: cfee83da305b9aaeccf92c24ac79df11c3003492
+  GooglePlaces: 1e2a87bd9efee9623ee65d44ecc35ebfecd7b13c
+  lottie-ios: 49cd85b1f24f61a7708ad7ec76a523ab2d0e3100
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+
+PODFILE CHECKSUM: 022b618c5fbfbf02588c40a1a0fc34e07f4fd19c
+
+COCOAPODS: 1.7.5

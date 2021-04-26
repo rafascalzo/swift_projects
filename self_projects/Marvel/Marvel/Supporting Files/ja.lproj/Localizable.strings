@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Marvel
+
+  Created by rafaeldelegate on 7/18/19.
+  Copyright © 2019 rafaeldelegate. All rights reserved.
+*/
+"Search your favorite hero" = "お気に入りのヒーローを検索";
+"dark" = "ダーク";
+"Back to menu" = "メニューに戻る";
+"Dark Theme" = "暗いテーマ";
+"Marvel Quiz" = "マーベルクイズ";
+"Reveal image" = "画像を表示";
+"Try again" = "再試行する";
+"Score" = "スコア";
+"Comic Tips" = "コミックのヒント";
+"Series Tips" = "シリーズのヒント";
+"Events Tips" = "イベントのヒント";
+"Appeared in comics" = "漫画に登場";
+"Appeared in events" = "イベントに登場";
+"Appeared in series" = "シリーズで登場";
+"Sorry" = "ごめんなさい";
+"Unexpected error" = "予期しないエラー";
+"Understood" = "理解した";
+"Our servers are temporarily unavailable" = "当社のサーバーは一時的にご利用いただけません";

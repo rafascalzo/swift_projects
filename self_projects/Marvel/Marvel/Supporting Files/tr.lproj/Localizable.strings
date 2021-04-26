@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Marvel
+
+  Created by rafaeldelegate on 7/18/19.
+  Copyright © 2019 rafaeldelegate. All rights reserved.
+*/
+"Search your favorite hero" = "Favori kahramanını ara";
+"dark" = "dark";
+"Back to menu" = "Menüye dön";
+"Dark Theme" = "Karanlık Tema";
+"Marvel Quiz" = "Marvel yarışması";
+"Reveal image" = "Görüntü ortaya";
+"Try again" = "Try again";
+"Score" = "Score";
+"Comic Tips" = "Comic Tips";
+"Series Tips" = "Series Tips";
+"Events Tips" = "Events Tips";
+"Appeared in comics" = "in comics";
+"Appeared in events" = "in events";
+"Appeared in series" = "in series";
+"Sorry" = "Sorry";
+"Unexpected error" = "Unexpected error";
+"Understood" = "Understood";
+"Our servers are temporarily unavailable" = "Our servers are temporarily unavaliable";

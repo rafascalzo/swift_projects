@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pratical Recipes/Circle Progress Bar/view/Colors.swift"
+            timestampString = "583546420.186039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "UIColor"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_0AAEF27F2E0EF777A4C7726E2232B6BA_func2"
+                  moduleName = "Pratical Recipes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafaelviewcontroller/Documents/Swift/Animations/Pratical%20Recipes/Pratical%20Recipes/Circle%20Progress%20Bar/view/Colors.swift"
+                  timestampString = "583543273.0858231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(extension in Pratical_Recipes):__C.UIColor.trackStrokeColor.unsafeMutableAddressor : __C.UIColor"
+                  moduleName = "Pratical Recipes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafaelviewcontroller/Documents/Swift/Animations/Pratical%20Recipes/Pratical%20Recipes/Circle%20Progress%20Bar/view/Colors.swift"
+                  timestampString = "583543273.089622"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static (extension in Pratical_Recipes):__C.UIColor.trackStrokeColor.getter : __C.UIColor"
+                  moduleName = "Pratical Recipes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rafaelviewcontroller/Documents/Swift/Animations/Pratical%20Recipes/Pratical%20Recipes/Circle%20Progress%20Bar/view/Colors.swift"
+                  timestampString = "583543273.091953"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

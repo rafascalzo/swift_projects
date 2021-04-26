@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B862B5222CE392300DFADF4 /* loading-galaxy.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B862B5122CE392300DFADF4 /* loading-galaxy.json */; };
+		5BE5052A22CF6B6800E2E1C7 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5052922CF6B6800E2E1C7 /* UIView+AutoLayout.swift */; };
+		5BE5052C22CF8B2700E2E1C7 /* UILabel+SetupBasicLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE5052B22CF8B2700E2E1C7 /* UILabel+SetupBasicLabel.swift */; };
+		9F86FEF31CADDE5B63E85C90 /* Pods_Cosmo_City.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F4078236A5093FB65754BB /* Pods_Cosmo_City.framework */; };
+		AF07B95022D18F88006CAA70 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07B94F22D18F88006CAA70 /* SpaceViewController.swift */; };
+		AF07B95622D19399006CAA70 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07B95522D19399006CAA70 /* TitleLabel.swift */; };
+		AF07B95B22D1A6F8006CAA70 /* MediaName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07B95A22D1A6F8006CAA70 /* MediaName.swift */; };
+		AF3F371A22CD38E8009EEB43 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F371922CD38E8009EEB43 /* LogoViewController.swift */; };
+		AF3F371C22CD3974009EEB43 /* LogoAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F371B22CD3974009EEB43 /* LogoAnimatedView.swift */; };
+		AF3F372222CD3D78009EEB43 /* world-locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AF3F372122CD3D78009EEB43 /* world-locations.json */; };
+		AF635DAE22CFD2F6009E22A7 /* NASADAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF635DAD22CFD2F6009E22A7 /* NASADAO.swift */; };
+		AF635DAF22CFE805009E22A7 /* Cosmo_City.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFF9EF7522C9703B00A0D526 /* Cosmo_City.xcdatamodeld */; };
+		AFF9EF6F22C9703B00A0D526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9EF6E22C9703B00A0D526 /* AppDelegate.swift */; };
+		AFF9EF7922C9703D00A0D526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF9EF7822C9703D00A0D526 /* Assets.xcassets */; };
+		AFF9EF7C22C9703D00A0D526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF9EF7A22C9703D00A0D526 /* LaunchScreen.storyboard */; };
+		AFF9EF8922C9752500A0D526 /* NASAApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9EF8822C9752500A0D526 /* NASAApiClient.swift */; };
+		AFF9EF8D22C995DD00A0D526 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9EF8C22C995DD00A0D526 /* UIColor+CustomColors.swift */; };
+		AFF9EF8F22C99AD500A0D526 /* UIFont+CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF9EF8E22C99AD500A0D526 /* UIFont+CustomFonts.swift */; };
+		AFFA01EC22CADB730066E034 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E322CADB730066E034 /* Ubuntu-Medium.ttf */; };
+		AFFA01ED22CADB730066E034 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E422CADB730066E034 /* Ubuntu-LightItalic.ttf */; };
+		AFFA01EE22CADB730066E034 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E522CADB730066E034 /* Ubuntu-Regular.ttf */; };
+		AFFA01EF22CADB730066E034 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E622CADB730066E034 /* Ubuntu-Bold.ttf */; };
+		AFFA01F022CADB730066E034 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E722CADB730066E034 /* Ubuntu-MediumItalic.ttf */; };
+		AFFA01F122CADB730066E034 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E822CADB730066E034 /* Ubuntu-BoldItalic.ttf */; };
+		AFFA01F222CADB730066E034 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01E922CADB730066E034 /* Ubuntu-Italic.ttf */; };
+		AFFA01F322CADB730066E034 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01EA22CADB730066E034 /* Ubuntu-Light.ttf */; };
+		AFFA01F422CADB730066E034 /* UFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = AFFA01EB22CADB730066E034 /* UFL.txt */; };
+		AFFA45EC22D26E800027E498 /* MediaContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFA45EB22D26E800027E498 /* MediaContainerView.swift */; };
+		AFFAEF7722D28AB7003342A7 /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF7622D28AB7003342A7 /* ExplanationView.swift */; };
+		AFFAEF7922D28FCF003342A7 /* UITextView+BasicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF7822D28FCF003342A7 /* UITextView+BasicTextView.swift */; };
+		AFFAEF7B22D292C3003342A7 /* LoadingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF7A22D292C3003342A7 /* LoadingAnimationView.swift */; };
+		AFFAEF8122D2A3E8003342A7 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8022D2A3E8003342A7 /* PicturesViewController.swift */; };
+		AFFAEF8322D2A65A003342A7 /* PicturesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8222D2A65A003342A7 /* PicturesCollectionView.swift */; };
+		AFFAEF8522D2A761003342A7 /* PicturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8422D2A761003342A7 /* PicturesCollectionViewCell.swift */; };
+		AFFAEF8722D2D1EF003342A7 /* NasaRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8622D2D1EF003342A7 /* NasaRepository.swift */; };
+		AFFAEF8922D2DC2B003342A7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8822D2DC2B003342A7 /* MainView.swift */; };
+		AFFAEF8B22D2E99C003342A7 /* ButtonCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8A22D2E99C003342A7 /* ButtonCollection.swift */; };
+		AFFAEF8D22D30046003342A7 /* ButtonBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFAEF8C22D30046003342A7 /* ButtonBack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B862B5122CE392300DFADF4 /* loading-galaxy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "loading-galaxy.json"; sourceTree = "<group>"; };
+		5BE5052922CF6B6800E2E1C7 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		5BE5052B22CF8B2700E2E1C7 /* UILabel+SetupBasicLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+SetupBasicLabel.swift"; sourceTree = "<group>"; };
+		67B1D129380153803C92CB76 /* Pods-Cosmo City.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosmo City.debug.xcconfig"; path = "Target Support Files/Pods-Cosmo City/Pods-Cosmo City.debug.xcconfig"; sourceTree = "<group>"; };
+		AF07B94F22D18F88006CAA70 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
+		AF07B95522D19399006CAA70 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		AF07B95A22D1A6F8006CAA70 /* MediaName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaName.swift; sourceTree = "<group>"; };
+		AF3F371922CD38E8009EEB43 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
+		AF3F371B22CD3974009EEB43 /* LogoAnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimatedView.swift; sourceTree = "<group>"; };
+		AF3F372122CD3D78009EEB43 /* world-locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "world-locations.json"; sourceTree = "<group>"; };
+		AF635DAD22CFD2F6009E22A7 /* NASADAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASADAO.swift; sourceTree = "<group>"; };
+		AFF9EF6B22C9703B00A0D526 /* Cosmo City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cosmo City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF9EF6E22C9703B00A0D526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFF9EF7622C9703B00A0D526 /* Cosmo_City.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cosmo_City.xcdatamodel; sourceTree = "<group>"; };
+		AFF9EF7822C9703D00A0D526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF9EF7B22C9703D00A0D526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF9EF7D22C9703D00A0D526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF9EF8822C9752500A0D526 /* NASAApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAApiClient.swift; sourceTree = "<group>"; };
+		AFF9EF8C22C995DD00A0D526 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		AFF9EF8E22C99AD500A0D526 /* UIFont+CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+CustomFonts.swift"; sourceTree = "<group>"; };
+		AFFA01E322CADB730066E034 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		AFFA01E422CADB730066E034 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		AFFA01E522CADB730066E034 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		AFFA01E622CADB730066E034 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		AFFA01E722CADB730066E034 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AFFA01E822CADB730066E034 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AFFA01E922CADB730066E034 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		AFFA01EA22CADB730066E034 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		AFFA01EB22CADB730066E034 /* UFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UFL.txt; sourceTree = "<group>"; };
+		AFFA45EB22D26E800027E498 /* MediaContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaContainerView.swift; sourceTree = "<group>"; };
+		AFFAEF7622D28AB7003342A7 /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
+		AFFAEF7822D28FCF003342A7 /* UITextView+BasicTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+BasicTextView.swift"; sourceTree = "<group>"; };
+		AFFAEF7A22D292C3003342A7 /* LoadingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimationView.swift; sourceTree = "<group>"; };
+		AFFAEF8022D2A3E8003342A7 /* PicturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
+		AFFAEF8222D2A65A003342A7 /* PicturesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesCollectionView.swift; sourceTree = "<group>"; };
+		AFFAEF8422D2A761003342A7 /* PicturesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFFAEF8622D2D1EF003342A7 /* NasaRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaRepository.swift; sourceTree = "<group>"; };
+		AFFAEF8822D2DC2B003342A7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AFFAEF8A22D2E99C003342A7 /* ButtonCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollection.swift; sourceTree = "<group>"; };
+		AFFAEF8C22D30046003342A7 /* ButtonBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBack.swift; sourceTree = "<group>"; };
+		D56CA55FAB84BAE41016FF35 /* Pods-Cosmo City.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cosmo City.release.xcconfig"; path = "Target Support Files/Pods-Cosmo City/Pods-Cosmo City.release.xcconfig"; sourceTree = "<group>"; };
+		D9F4078236A5093FB65754BB /* Pods_Cosmo_City.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cosmo_City.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF9EF6822C9703B00A0D526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F86FEF31CADDE5B63E85C90 /* Pods_Cosmo_City.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B9CC6A99D933EF1894114A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F4078236A5093FB65754BB /* Pods_Cosmo_City.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73FC6010E1A1892655B4EF04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B1D129380153803C92CB76 /* Pods-Cosmo City.debug.xcconfig */,
+				D56CA55FAB84BAE41016FF35 /* Pods-Cosmo City.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF07B95122D190E5006CAA70 /* Nasa */ = {
+			isa = PBXGroup;
+			children = (
+				AF07B95422D1910C006CAA70 /* model */,
+				AF07B95322D190FF006CAA70 /* view */,
+				AF07B95222D190F4006CAA70 /* controller */,
+			);
+			path = Nasa;
+			sourceTree = "<group>";
+		};
+		AF07B95222D190F4006CAA70 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF07B94F22D18F88006CAA70 /* SpaceViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AF07B95322D190FF006CAA70 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5B862B5122CE392300DFADF4 /* loading-galaxy.json */,
+				AF07B95522D19399006CAA70 /* TitleLabel.swift */,
+				AF07B95A22D1A6F8006CAA70 /* MediaName.swift */,
+				AFFA45EB22D26E800027E498 /* MediaContainerView.swift */,
+				AFFAEF7622D28AB7003342A7 /* ExplanationView.swift */,
+				AFFAEF7A22D292C3003342A7 /* LoadingAnimationView.swift */,
+				AFFAEF8822D2DC2B003342A7 /* MainView.swift */,
+				AFFAEF8A22D2E99C003342A7 /* ButtonCollection.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AF07B95422D1910C006CAA70 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AF635DAD22CFD2F6009E22A7 /* NASADAO.swift */,
+				AFF9EF8822C9752500A0D526 /* NASAApiClient.swift */,
+				AFFAEF8622D2D1EF003342A7 /* NasaRepository.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AF3F371522CD3871009EEB43 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F371822CD38C4009EEB43 /* model */,
+				AF3F371722CD38B6009EEB43 /* view */,
+				AF3F371622CD38A7009EEB43 /* controller */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		AF3F371622CD38A7009EEB43 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F371922CD38E8009EEB43 /* LogoViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AF3F371722CD38B6009EEB43 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AF3F372122CD3D78009EEB43 /* world-locations.json */,
+				AF3F371B22CD3974009EEB43 /* LogoAnimatedView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AF3F371822CD38C4009EEB43 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AFF9EF6222C9703B00A0D526 = {
+			isa = PBXGroup;
+			children = (
+				AFF9EF6D22C9703B00A0D526 /* Cosmo City */,
+				AFF9EF6C22C9703B00A0D526 /* Products */,
+				73FC6010E1A1892655B4EF04 /* Pods */,
+				14B9CC6A99D933EF1894114A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF9EF6C22C9703B00A0D526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9EF6B22C9703B00A0D526 /* Cosmo City.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF9EF6D22C9703B00A0D526 /* Cosmo City */ = {
+			isa = PBXGroup;
+			children = (
+				AFF9EF8322C9705F00A0D526 /* Supporting Files */,
+				AF3F371522CD3871009EEB43 /* Logo */,
+				AF07B95122D190E5006CAA70 /* Nasa */,
+				AFFAEF7C22D2A3AB003342A7 /* Collection Pictures */,
+			);
+			path = "Cosmo City";
+			sourceTree = "<group>";
+		};
+		AFF9EF8322C9705F00A0D526 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA01E122CADB730066E034 /* Fonts */,
+				AFF9EF6E22C9703B00A0D526 /* AppDelegate.swift */,
+				AFF9EF7822C9703D00A0D526 /* Assets.xcassets */,
+				AFF9EF7A22C9703D00A0D526 /* LaunchScreen.storyboard */,
+				AFF9EF7D22C9703D00A0D526 /* Info.plist */,
+				AFF9EF7522C9703B00A0D526 /* Cosmo_City.xcdatamodeld */,
+				AFF9EF8C22C995DD00A0D526 /* UIColor+CustomColors.swift */,
+				AFF9EF8E22C99AD500A0D526 /* UIFont+CustomFonts.swift */,
+				5BE5052922CF6B6800E2E1C7 /* UIView+AutoLayout.swift */,
+				5BE5052B22CF8B2700E2E1C7 /* UILabel+SetupBasicLabel.swift */,
+				AFFAEF7822D28FCF003342A7 /* UITextView+BasicTextView.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFFA01E122CADB730066E034 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA01E222CADB730066E034 /* ubuntu */,
+			);
+			name = Fonts;
+			path = Assets.xcassets/Fonts;
+			sourceTree = "<group>";
+		};
+		AFFA01E222CADB730066E034 /* ubuntu */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA01E322CADB730066E034 /* Ubuntu-Medium.ttf */,
+				AFFA01E422CADB730066E034 /* Ubuntu-LightItalic.ttf */,
+				AFFA01E522CADB730066E034 /* Ubuntu-Regular.ttf */,
+				AFFA01E622CADB730066E034 /* Ubuntu-Bold.ttf */,
+				AFFA01E722CADB730066E034 /* Ubuntu-MediumItalic.ttf */,
+				AFFA01E822CADB730066E034 /* Ubuntu-BoldItalic.ttf */,
+				AFFA01E922CADB730066E034 /* Ubuntu-Italic.ttf */,
+				AFFA01EA22CADB730066E034 /* Ubuntu-Light.ttf */,
+				AFFA01EB22CADB730066E034 /* UFL.txt */,
+			);
+			path = ubuntu;
+			sourceTree = "<group>";
+		};
+		AFFAEF7C22D2A3AB003342A7 /* Collection Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAEF7F22D2A3C6003342A7 /* model */,
+				AFFAEF7E22D2A3BE003342A7 /* view */,
+				AFFAEF7D22D2A3B8003342A7 /* controller */,
+			);
+			path = "Collection Pictures";
+			sourceTree = "<group>";
+		};
+		AFFAEF7D22D2A3B8003342A7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAEF8022D2A3E8003342A7 /* PicturesViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AFFAEF7E22D2A3BE003342A7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AFFAEF8222D2A65A003342A7 /* PicturesCollectionView.swift */,
+				AFFAEF8422D2A761003342A7 /* PicturesCollectionViewCell.swift */,
+				AFFAEF8C22D30046003342A7 /* ButtonBack.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AFFAEF7F22D2A3C6003342A7 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF9EF6A22C9703B00A0D526 /* Cosmo City */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF9EF8022C9703D00A0D526 /* Build configuration list for PBXNativeTarget "Cosmo City" */;
+			buildPhases = (
+				271A83C3C5804E81109D3D7C /* [CP] Check Pods Manifest.lock */,
+				AFF9EF6722C9703B00A0D526 /* Sources */,
+				AFF9EF6822C9703B00A0D526 /* Frameworks */,
+				AFF9EF6922C9703B00A0D526 /* Resources */,
+				82B101A60D34055A7B522D68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cosmo City";
+			productName = "Cosmo City";
+			productReference = AFF9EF6B22C9703B00A0D526 /* Cosmo City.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF9EF6322C9703B00A0D526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rafaeldelegate;
+				TargetAttributes = {
+					AFF9EF6A22C9703B00A0D526 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AFF9EF6622C9703B00A0D526 /* Build configuration list for PBXProject "Cosmo City" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF9EF6222C9703B00A0D526;
+			productRefGroup = AFF9EF6C22C9703B00A0D526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF9EF6A22C9703B00A0D526 /* Cosmo City */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF9EF6922C9703B00A0D526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA01F122CADB730066E034 /* Ubuntu-BoldItalic.ttf in Resources */,
+				AFFA01F022CADB730066E034 /* Ubuntu-MediumItalic.ttf in Resources */,
+				AFFA01F322CADB730066E034 /* Ubuntu-Light.ttf in Resources */,
+				AFFA01ED22CADB730066E034 /* Ubuntu-LightItalic.ttf in Resources */,
+				AFF9EF7C22C9703D00A0D526 /* LaunchScreen.storyboard in Resources */,
+				AF3F372222CD3D78009EEB43 /* world-locations.json in Resources */,
+				AFFA01F222CADB730066E034 /* Ubuntu-Italic.ttf in Resources */,
+				AFFA01F422CADB730066E034 /* UFL.txt in Resources */,
+				5B862B5222CE392300DFADF4 /* loading-galaxy.json in Resources */,
+				AFFA01EF22CADB730066E034 /* Ubuntu-Bold.ttf in Resources */,
+				AFF9EF7922C9703D00A0D526 /* Assets.xcassets in Resources */,
+				AFFA01EE22CADB730066E034 /* Ubuntu-Regular.ttf in Resources */,
+				AFFA01EC22CADB730066E034 /* Ubuntu-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		271A83C3C5804E81109D3D7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cosmo City-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82B101A60D34055A7B522D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cosmo City/Pods-Cosmo City-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cosmo City/Pods-Cosmo City-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cosmo City/Pods-Cosmo City-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF9EF6722C9703B00A0D526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFAEF8B22D2E99C003342A7 /* ButtonCollection.swift in Sources */,
+				AF07B95022D18F88006CAA70 /* SpaceViewController.swift in Sources */,
+				AFFA45EC22D26E800027E498 /* MediaContainerView.swift in Sources */,
+				AFFAEF8522D2A761003342A7 /* PicturesCollectionViewCell.swift in Sources */,
+				AFFAEF8722D2D1EF003342A7 /* NasaRepository.swift in Sources */,
+				AF635DAF22CFE805009E22A7 /* Cosmo_City.xcdatamodeld in Sources */,
+				AF07B95B22D1A6F8006CAA70 /* MediaName.swift in Sources */,
+				AFF9EF8F22C99AD500A0D526 /* UIFont+CustomFonts.swift in Sources */,
+				AFFAEF8922D2DC2B003342A7 /* MainView.swift in Sources */,
+				5BE5052A22CF6B6800E2E1C7 /* UIView+AutoLayout.swift in Sources */,
+				AFFAEF7B22D292C3003342A7 /* LoadingAnimationView.swift in Sources */,
+				AFF9EF8D22C995DD00A0D526 /* UIColor+CustomColors.swift in Sources */,
+				5BE5052C22CF8B2700E2E1C7 /* UILabel+SetupBasicLabel.swift in Sources */,
+				AFFAEF7922D28FCF003342A7 /* UITextView+BasicTextView.swift in Sources */,
+				AFFAEF7722D28AB7003342A7 /* ExplanationView.swift in Sources */,
+				AF3F371A22CD38E8009EEB43 /* LogoViewController.swift in Sources */,
+				AFFAEF8D22D30046003342A7 /* ButtonBack.swift in Sources */,
+				AFF9EF8922C9752500A0D526 /* NASAApiClient.swift in Sources */,
+				AF07B95622D19399006CAA70 /* TitleLabel.swift in Sources */,
+				AFF9EF6F22C9703B00A0D526 /* AppDelegate.swift in Sources */,
+				AF3F371C22CD3974009EEB43 /* LogoAnimatedView.swift in Sources */,
+				AFFAEF8122D2A3E8003342A7 /* PicturesViewController.swift in Sources */,
+				AFFAEF8322D2A65A003342A7 /* PicturesCollectionView.swift in Sources */,
+				AF635DAE22CFD2F6009E22A7 /* NASADAO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFF9EF7A22C9703D00A0D526 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF9EF7B22C9703D00A0D526 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF9EF7E22C9703D00A0D526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF9EF7F22C9703D00A0D526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF9EF8122C9703D00A0D526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B1D129380153803C92CB76 /* Pods-Cosmo City.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Cosmo City/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafaelviewcontroller.Cosmo-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF9EF8222C9703D00A0D526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56CA55FAB84BAE41016FF35 /* Pods-Cosmo City.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Cosmo City/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafaelviewcontroller.Cosmo-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF9EF6622C9703B00A0D526 /* Build configuration list for PBXProject "Cosmo City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF9EF7E22C9703D00A0D526 /* Debug */,
+				AFF9EF7F22C9703D00A0D526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF9EF8022C9703D00A0D526 /* Build configuration list for PBXNativeTarget "Cosmo City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF9EF8122C9703D00A0D526 /* Debug */,
+				AFF9EF8222C9703D00A0D526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFF9EF7522C9703B00A0D526 /* Cosmo_City.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFF9EF7622C9703B00A0D526 /* Cosmo_City.xcdatamodel */,
+			);
+			currentVersion = AFF9EF7622C9703B00A0D526 /* Cosmo_City.xcdatamodel */;
+			path = Cosmo_City.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFF9EF6322C9703B00A0D526 /* Project object */;
+}

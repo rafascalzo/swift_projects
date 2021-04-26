@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B25CA8A60A37C98B0A22EFB /* libPods-YSpace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8962F5570D3A66416EF834 /* libPods-YSpace.a */; };
+		8905541323E44F190058F758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905541223E44F190058F758 /* AppDelegate.swift */; };
+		8905541523E44F190058F758 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905541423E44F190058F758 /* SceneDelegate.swift */; };
+		8905541C23E44F1C0058F758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8905541B23E44F1C0058F758 /* Assets.xcassets */; };
+		8905541F23E44F1C0058F758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8905541D23E44F1C0058F758 /* LaunchScreen.storyboard */; };
+		8915D07A23E4512C008F2A73 /* SpaceMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D07923E4512C008F2A73 /* SpaceMainView.swift */; };
+		8915D07E23E451C9008F2A73 /* SpaceMainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D07D23E451C9008F2A73 /* SpaceMainProtocols.swift */; };
+		8915D08023E4597C008F2A73 /* SpaceMainInputPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D07F23E4597C008F2A73 /* SpaceMainInputPresenter.swift */; };
+		8915D08223E45993008F2A73 /* SpaceMainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D08123E45993008F2A73 /* SpaceMainPresenter.swift */; };
+		8915D08423E459B2008F2A73 /* SpaceMainWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D08323E459B2008F2A73 /* SpaceMainWireframe.swift */; };
+		8915D08823E46410008F2A73 /* NASAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D08723E46410008F2A73 /* NASAAPI.swift */; };
+		8915D08A23E47692008F2A73 /* NASAAPI.Curiosity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8915D08923E47692008F2A73 /* NASAAPI.Curiosity.swift */; };
+		8926C47E2467DAA0009E492F /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926C47D2467DAA0009E492F /* ViewModifier.swift */; };
+		8936C164242EE4F3004CFEE3 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936C163242EE4F3004CFEE3 /* UIViewController+Extensions.swift */; };
+		8936C166242EFA6D004CFEE3 /* MarsRoverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936C165242EFA6D004CFEE3 /* MarsRoverPresenter.swift */; };
+		8936C168242EFAB5004CFEE3 /* MarsRoverWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8936C167242EFAB5004CFEE3 /* MarsRoverWireframe.swift */; };
+		89C49707242FBE540087BE9D /* RoverName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C49706242FBE540087BE9D /* RoverName.swift */; };
+		89C49709242FC38C0087BE9D /* URLComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C49708242FC38C0087BE9D /* URLComposer.swift */; };
+		89C4970B242FCD550087BE9D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C4970A242FCD550087BE9D /* Date+Extensions.swift */; };
+		89C4970D243074240087BE9D /* MartianSolInputParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C4970C243074240087BE9D /* MartianSolInputParameters.swift */; };
+		89CCF4B924244FD5001F84D4 /* NASAAPI.PictureOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF4B824244FD5001F84D4 /* NASAAPI.PictureOfTheDay.swift */; };
+		89CCF4BB24245502001F84D4 /* RequestQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF4BA24245502001F84D4 /* RequestQueue.swift */; };
+		89CCF4BD24245B8A001F84D4 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF4BC24245B8A001F84D4 /* UserDefaults.swift */; };
+		89CCF50924282BD7001F84D4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF50824282BD7001F84D4 /* Network.swift */; };
+		89CCF50C24283B6D001F84D4 /* PictureOfTheDayCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF50B24283B6D001F84D4 /* PictureOfTheDayCollectionView.swift */; };
+		89CCF51424283BD0001F84D4 /* PictureOfTheDayCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF51324283BD0001F84D4 /* PictureOfTheDayCollectionCell.swift */; };
+		89CCF51D24283CFA001F84D4 /* PictureOfTheDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF51C24283CFA001F84D4 /* PictureOfTheDayView.swift */; };
+		89CCF5202428492B001F84D4 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF51F2428492B001F84D4 /* UILabel+Extensions.swift */; };
+		89CCF522242849A1001F84D4 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF521242849A1001F84D4 /* UIImageView+Extensions.swift */; };
+		89CCF524242849E8001F84D4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF523242849E8001F84D4 /* UIView+Extensions.swift */; };
+		89CCF52624284C77001F84D4 /* UITextView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF52524284C77001F84D4 /* UITextView+Extensions.swift */; };
+		89CCF52824284E5D001F84D4 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF52724284E5D001F84D4 /* VideoView.swift */; };
+		89CCF52A2428569E001F84D4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF5292428569E001F84D4 /* String+Extensions.swift */; };
+		89CCF52F242857DE001F84D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89CCF531242857DE001F84D4 /* Localizable.strings */; };
+		89CCF53424286241001F84D4 /* PictureOfTheDayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF53324286241001F84D4 /* PictureOfTheDayProtocols.swift */; };
+		89CCF5362428645C001F84D4 /* PictureOfTheDayInputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF5352428645C001F84D4 /* PictureOfTheDayInputInteractor.swift */; };
+		89CCF53824286509001F84D4 /* PictureOfTheDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF53724286509001F84D4 /* PictureOfTheDayPresenter.swift */; };
+		89CCF53A242865A6001F84D4 /* PictureOfTheDayWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF539242865A6001F84D4 /* PictureOfTheDayWireframe.swift */; };
+		89CCF54B242B0E7D001F84D4 /* EarthDateQueryInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF54A242B0E7D001F84D4 /* EarthDateQueryInput.swift */; };
+		89CCF54D242B0EBC001F84D4 /* MarsRoverProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF54C242B0EBC001F84D4 /* MarsRoverProtocols.swift */; };
+		89CCF54F242B0EDB001F84D4 /* MarsRoverInputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF54E242B0EDB001F84D4 /* MarsRoverInputInteractor.swift */; };
+		89CCF551242B0FDC001F84D4 /* MarsRoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF550242B0FDC001F84D4 /* MarsRoverView.swift */; };
+		89CCF57D242D86EA001F84D4 /* PictureOfTheDayQueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CCF57C242D86EA001F84D4 /* PictureOfTheDayQueryParameters.swift */; };
+		89E6808E2430834D0050BF01 /* NASAAPI.ImageAndVideoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6808D2430834D0050BF01 /* NASAAPI.ImageAndVideoLibrary.swift */; };
+		89E6809724313AF10050BF01 /* ImageAndVideoLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6809624313AF10050BF01 /* ImageAndVideoLibraryView.swift */; };
+		89E6809924313B110050BF01 /* ImageAndVideoLibraryProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6809824313B110050BF01 /* ImageAndVideoLibraryProtocols.swift */; };
+		89E6809B24314D600050BF01 /* ImageAndVideoLibraryInputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6809A24314D600050BF01 /* ImageAndVideoLibraryInputInteractor.swift */; };
+		89E6809D24314D910050BF01 /* ImageAndVideoLibraryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6809C24314D910050BF01 /* ImageAndVideoLibraryPresenter.swift */; };
+		89E6809F24314E5E0050BF01 /* ImageAndVideoLibraryWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6809E24314E5E0050BF01 /* ImageAndVideoLibraryWireframe.swift */; };
+		89E680A1243154170050BF01 /* SearchLibraryInputParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E680A0243154170050BF01 /* SearchLibraryInputParameters.swift */; };
+		89E680AA243156F60050BF01 /* EpicProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E680A9243156F60050BF01 /* EpicProtocols.swift */; };
+		89E680AC243158480050BF01 /* EpicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E680AB243158480050BF01 /* EpicView.swift */; };
+		89E680AE243158FE0050BF01 /* EpicWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E680AD243158FE0050BF01 /* EpicWireframe.swift */; };
+		89E680B02431598C0050BF01 /* EpicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E680AF2431598C0050BF01 /* EpicPresenter.swift */; };
+		89E680B224315A060050BF01 /* EpicInputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E680B124315A060050BF01 /* EpicInputInteractor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D8962F5570D3A66416EF834 /* libPods-YSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YSpace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F0CABB134C37641807A103 /* Pods-YSpace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSpace.debug.xcconfig"; path = "Target Support Files/Pods-YSpace/Pods-YSpace.debug.xcconfig"; sourceTree = "<group>"; };
+		81B0480AA78ADEA8D8B6B55B /* Pods-YSpace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSpace.release.xcconfig"; path = "Target Support Files/Pods-YSpace/Pods-YSpace.release.xcconfig"; sourceTree = "<group>"; };
+		8905540F23E44F190058F758 /* YSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8905541223E44F190058F758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8905541423E44F190058F758 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8905541B23E44F1C0058F758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8905541E23E44F1C0058F758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8905542023E44F1C0058F758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8915D07923E4512C008F2A73 /* SpaceMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMainView.swift; sourceTree = "<group>"; };
+		8915D07D23E451C9008F2A73 /* SpaceMainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMainProtocols.swift; sourceTree = "<group>"; };
+		8915D07F23E4597C008F2A73 /* SpaceMainInputPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMainInputPresenter.swift; sourceTree = "<group>"; };
+		8915D08123E45993008F2A73 /* SpaceMainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMainPresenter.swift; sourceTree = "<group>"; };
+		8915D08323E459B2008F2A73 /* SpaceMainWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceMainWireframe.swift; sourceTree = "<group>"; };
+		8915D08723E46410008F2A73 /* NASAAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAAPI.swift; sourceTree = "<group>"; };
+		8915D08923E47692008F2A73 /* NASAAPI.Curiosity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAAPI.Curiosity.swift; sourceTree = "<group>"; };
+		8926C47D2467DAA0009E492F /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		8936C163242EE4F3004CFEE3 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		8936C165242EFA6D004CFEE3 /* MarsRoverPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverPresenter.swift; sourceTree = "<group>"; };
+		8936C167242EFAB5004CFEE3 /* MarsRoverWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverWireframe.swift; sourceTree = "<group>"; };
+		89C49706242FBE540087BE9D /* RoverName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverName.swift; sourceTree = "<group>"; };
+		89C49708242FC38C0087BE9D /* URLComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComposer.swift; sourceTree = "<group>"; };
+		89C4970A242FCD550087BE9D /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		89C4970C243074240087BE9D /* MartianSolInputParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MartianSolInputParameters.swift; sourceTree = "<group>"; };
+		89CCF4B824244FD5001F84D4 /* NASAAPI.PictureOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAAPI.PictureOfTheDay.swift; sourceTree = "<group>"; };
+		89CCF4BA24245502001F84D4 /* RequestQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestQueue.swift; sourceTree = "<group>"; };
+		89CCF4BC24245B8A001F84D4 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		89CCF50824282BD7001F84D4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		89CCF50B24283B6D001F84D4 /* PictureOfTheDayCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayCollectionView.swift; sourceTree = "<group>"; };
+		89CCF51324283BD0001F84D4 /* PictureOfTheDayCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayCollectionCell.swift; sourceTree = "<group>"; };
+		89CCF51C24283CFA001F84D4 /* PictureOfTheDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayView.swift; sourceTree = "<group>"; };
+		89CCF51F2428492B001F84D4 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		89CCF521242849A1001F84D4 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		89CCF523242849E8001F84D4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		89CCF52524284C77001F84D4 /* UITextView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extensions.swift"; sourceTree = "<group>"; };
+		89CCF52724284E5D001F84D4 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		89CCF5292428569E001F84D4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		89CCF530242857DE001F84D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		89CCF532242857F4001F84D4 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		89CCF53324286241001F84D4 /* PictureOfTheDayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayProtocols.swift; sourceTree = "<group>"; };
+		89CCF5352428645C001F84D4 /* PictureOfTheDayInputInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayInputInteractor.swift; sourceTree = "<group>"; };
+		89CCF53724286509001F84D4 /* PictureOfTheDayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayPresenter.swift; sourceTree = "<group>"; };
+		89CCF539242865A6001F84D4 /* PictureOfTheDayWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayWireframe.swift; sourceTree = "<group>"; };
+		89CCF54A242B0E7D001F84D4 /* EarthDateQueryInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthDateQueryInput.swift; sourceTree = "<group>"; };
+		89CCF54C242B0EBC001F84D4 /* MarsRoverProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverProtocols.swift; sourceTree = "<group>"; };
+		89CCF54E242B0EDB001F84D4 /* MarsRoverInputInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverInputInteractor.swift; sourceTree = "<group>"; };
+		89CCF550242B0FDC001F84D4 /* MarsRoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverView.swift; sourceTree = "<group>"; };
+		89CCF57C242D86EA001F84D4 /* PictureOfTheDayQueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureOfTheDayQueryParameters.swift; sourceTree = "<group>"; };
+		89E6808D2430834D0050BF01 /* NASAAPI.ImageAndVideoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAAPI.ImageAndVideoLibrary.swift; sourceTree = "<group>"; };
+		89E6809624313AF10050BF01 /* ImageAndVideoLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndVideoLibraryView.swift; sourceTree = "<group>"; };
+		89E6809824313B110050BF01 /* ImageAndVideoLibraryProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndVideoLibraryProtocols.swift; sourceTree = "<group>"; };
+		89E6809A24314D600050BF01 /* ImageAndVideoLibraryInputInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndVideoLibraryInputInteractor.swift; sourceTree = "<group>"; };
+		89E6809C24314D910050BF01 /* ImageAndVideoLibraryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndVideoLibraryPresenter.swift; sourceTree = "<group>"; };
+		89E6809E24314E5E0050BF01 /* ImageAndVideoLibraryWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndVideoLibraryWireframe.swift; sourceTree = "<group>"; };
+		89E680A0243154170050BF01 /* SearchLibraryInputParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLibraryInputParameters.swift; sourceTree = "<group>"; };
+		89E680A9243156F60050BF01 /* EpicProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicProtocols.swift; sourceTree = "<group>"; };
+		89E680AB243158480050BF01 /* EpicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicView.swift; sourceTree = "<group>"; };
+		89E680AD243158FE0050BF01 /* EpicWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicWireframe.swift; sourceTree = "<group>"; };
+		89E680AF2431598C0050BF01 /* EpicPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicPresenter.swift; sourceTree = "<group>"; };
+		89E680B124315A060050BF01 /* EpicInputInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpicInputInteractor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8905540C23E44F190058F758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B25CA8A60A37C98B0A22EFB /* libPods-YSpace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B4CF9DC0555E1CA674A34C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D8962F5570D3A66416EF834 /* libPods-YSpace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8905540623E44F190058F758 = {
+			isa = PBXGroup;
+			children = (
+				8905541123E44F190058F758 /* YSpace */,
+				8905541023E44F190058F758 /* Products */,
+				95416BD6C2A95DF9A616D745 /* Pods */,
+				23B4CF9DC0555E1CA674A34C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8905541023E44F190058F758 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8905540F23E44F190058F758 /* YSpace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8905541123E44F190058F758 /* YSpace */ = {
+			isa = PBXGroup;
+			children = (
+				8926C47C2467DA93009E492F /* Protocols */,
+				89CCF51E24284913001F84D4 /* Utilities */,
+				8915D08523E463E1008F2A73 /* Service */,
+				8905542623E450150058F758 /* Space Main Scene */,
+				89CCF51524283CA0001F84D4 /* Picture Of The Day View Scene */,
+				89CCF50A24283B2B001F84D4 /* Picture Of The Day Collection Scene */,
+				89CCF543242B0DFA001F84D4 /* Mars Rover Photos Scene */,
+				89E6808F243083700050BF01 /* Image And Video Library */,
+				89E680A2243156940050BF01 /* EPIC Scene */,
+				8905541223E44F190058F758 /* AppDelegate.swift */,
+				8905541423E44F190058F758 /* SceneDelegate.swift */,
+				8905541B23E44F1C0058F758 /* Assets.xcassets */,
+				8905541D23E44F1C0058F758 /* LaunchScreen.storyboard */,
+				8905542023E44F1C0058F758 /* Info.plist */,
+				89CCF531242857DE001F84D4 /* Localizable.strings */,
+			);
+			path = YSpace;
+			sourceTree = "<group>";
+		};
+		8905542623E450150058F758 /* Space Main Scene */ = {
+			isa = PBXGroup;
+			children = (
+				8905542C23E450630058F758 /* View */,
+				8905542B23E4505C0058F758 /* Interactor */,
+				8905542A23E450560058F758 /* Presenter */,
+				8905542923E450500058F758 /* Entity */,
+				8905542823E4503F0058F758 /* Wireframe */,
+				8905542723E450380058F758 /* Protocols */,
+			);
+			path = "Space Main Scene";
+			sourceTree = "<group>";
+		};
+		8905542723E450380058F758 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8915D07D23E451C9008F2A73 /* SpaceMainProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8905542823E4503F0058F758 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				8915D08323E459B2008F2A73 /* SpaceMainWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		8905542923E450500058F758 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8905542A23E450560058F758 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8915D08123E45993008F2A73 /* SpaceMainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8905542B23E4505C0058F758 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8915D07F23E4597C008F2A73 /* SpaceMainInputPresenter.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8905542C23E450630058F758 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8915D07923E4512C008F2A73 /* SpaceMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8915D08523E463E1008F2A73 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8915D08623E463EA008F2A73 /* NASA API */,
+				89CCF50824282BD7001F84D4 /* Network.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8915D08623E463EA008F2A73 /* NASA API */ = {
+			isa = PBXGroup;
+			children = (
+				8915D08723E46410008F2A73 /* NASAAPI.swift */,
+				8915D08923E47692008F2A73 /* NASAAPI.Curiosity.swift */,
+				89CCF4B824244FD5001F84D4 /* NASAAPI.PictureOfTheDay.swift */,
+				89CCF4BA24245502001F84D4 /* RequestQueue.swift */,
+				89CCF4BC24245B8A001F84D4 /* UserDefaults.swift */,
+				89C49708242FC38C0087BE9D /* URLComposer.swift */,
+				89E6808D2430834D0050BF01 /* NASAAPI.ImageAndVideoLibrary.swift */,
+			);
+			path = "NASA API";
+			sourceTree = "<group>";
+		};
+		8926C47C2467DA93009E492F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8926C47D2467DAA0009E492F /* ViewModifier.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		89CCF50A24283B2B001F84D4 /* Picture Of The Day Collection Scene */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF50D24283B72001F84D4 /* View */,
+				89CCF51224283B9C001F84D4 /* Interactor */,
+				89CCF51124283B92001F84D4 /* Presenter */,
+				89CCF51024283B8B001F84D4 /* Entity */,
+				89CCF50F24283B82001F84D4 /* Wireframe */,
+				89CCF50E24283B7B001F84D4 /* Protocols */,
+			);
+			path = "Picture Of The Day Collection Scene";
+			sourceTree = "<group>";
+		};
+		89CCF50D24283B72001F84D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF50B24283B6D001F84D4 /* PictureOfTheDayCollectionView.swift */,
+				89CCF51324283BD0001F84D4 /* PictureOfTheDayCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89CCF50E24283B7B001F84D4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		89CCF50F24283B82001F84D4 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		89CCF51024283B8B001F84D4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		89CCF51124283B92001F84D4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89CCF51224283B9C001F84D4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		89CCF51524283CA0001F84D4 /* Picture Of The Day View Scene */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF51B24283CDB001F84D4 /* View */,
+				89CCF51A24283CD5001F84D4 /* Interactor */,
+				89CCF51924283CCF001F84D4 /* Presenter */,
+				89CCF51824283CC2001F84D4 /* Entity */,
+				89CCF51724283CBC001F84D4 /* Wireframe */,
+				89CCF51624283CB5001F84D4 /* Protocols */,
+			);
+			path = "Picture Of The Day View Scene";
+			sourceTree = "<group>";
+		};
+		89CCF51624283CB5001F84D4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF53324286241001F84D4 /* PictureOfTheDayProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		89CCF51724283CBC001F84D4 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF539242865A6001F84D4 /* PictureOfTheDayWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		89CCF51824283CC2001F84D4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF57C242D86EA001F84D4 /* PictureOfTheDayQueryParameters.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		89CCF51924283CCF001F84D4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF53724286509001F84D4 /* PictureOfTheDayPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89CCF51A24283CD5001F84D4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF5352428645C001F84D4 /* PictureOfTheDayInputInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		89CCF51B24283CDB001F84D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF51C24283CFA001F84D4 /* PictureOfTheDayView.swift */,
+				89CCF52724284E5D001F84D4 /* VideoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89CCF51E24284913001F84D4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF51F2428492B001F84D4 /* UILabel+Extensions.swift */,
+				89CCF521242849A1001F84D4 /* UIImageView+Extensions.swift */,
+				89CCF523242849E8001F84D4 /* UIView+Extensions.swift */,
+				89CCF52524284C77001F84D4 /* UITextView+Extensions.swift */,
+				89CCF5292428569E001F84D4 /* String+Extensions.swift */,
+				8936C163242EE4F3004CFEE3 /* UIViewController+Extensions.swift */,
+				89C4970A242FCD550087BE9D /* Date+Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		89CCF543242B0DFA001F84D4 /* Mars Rover Photos Scene */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF549242B0E5A001F84D4 /* View */,
+				89CCF548242B0E52001F84D4 /* Interactor */,
+				89CCF547242B0E47001F84D4 /* Presenter */,
+				89CCF546242B0E33001F84D4 /* Entity */,
+				89CCF545242B0E2B001F84D4 /* Wireframe */,
+				89CCF544242B0E25001F84D4 /* Protocols */,
+			);
+			path = "Mars Rover Photos Scene";
+			sourceTree = "<group>";
+		};
+		89CCF544242B0E25001F84D4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF54C242B0EBC001F84D4 /* MarsRoverProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		89CCF545242B0E2B001F84D4 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				8936C167242EFAB5004CFEE3 /* MarsRoverWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		89CCF546242B0E33001F84D4 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF54A242B0E7D001F84D4 /* EarthDateQueryInput.swift */,
+				89C49706242FBE540087BE9D /* RoverName.swift */,
+				89C4970C243074240087BE9D /* MartianSolInputParameters.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		89CCF547242B0E47001F84D4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8936C165242EFA6D004CFEE3 /* MarsRoverPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89CCF548242B0E52001F84D4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF54E242B0EDB001F84D4 /* MarsRoverInputInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		89CCF549242B0E5A001F84D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89CCF550242B0FDC001F84D4 /* MarsRoverView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89E6808F243083700050BF01 /* Image And Video Library */ = {
+			isa = PBXGroup;
+			children = (
+				89E68095243083A20050BF01 /* View */,
+				89E68094243083980050BF01 /* Interactor */,
+				89E68093243083930050BF01 /* Presenter */,
+				89E680922430838B0050BF01 /* Entity */,
+				89E68091243083840050BF01 /* Wireframe */,
+				89E680902430837E0050BF01 /* Protocols */,
+			);
+			path = "Image And Video Library";
+			sourceTree = "<group>";
+		};
+		89E680902430837E0050BF01 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				89E6809824313B110050BF01 /* ImageAndVideoLibraryProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		89E68091243083840050BF01 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				89E6809E24314E5E0050BF01 /* ImageAndVideoLibraryWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		89E680922430838B0050BF01 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				89E680A0243154170050BF01 /* SearchLibraryInputParameters.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		89E68093243083930050BF01 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				89E6809C24314D910050BF01 /* ImageAndVideoLibraryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89E68094243083980050BF01 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89E6809A24314D600050BF01 /* ImageAndVideoLibraryInputInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		89E68095243083A20050BF01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89E6809624313AF10050BF01 /* ImageAndVideoLibraryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		89E680A2243156940050BF01 /* EPIC Scene */ = {
+			isa = PBXGroup;
+			children = (
+				89E680A8243156CE0050BF01 /* View */,
+				89E680A7243156C10050BF01 /* Interactor */,
+				89E680A6243156B20050BF01 /* Presenter */,
+				89E680A5243156AC0050BF01 /* Entity */,
+				89E680A4243156A40050BF01 /* Wireframe */,
+				89E680A32431569C0050BF01 /* Protocols */,
+			);
+			path = "EPIC Scene";
+			sourceTree = "<group>";
+		};
+		89E680A32431569C0050BF01 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				89E680A9243156F60050BF01 /* EpicProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		89E680A4243156A40050BF01 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				89E680AD243158FE0050BF01 /* EpicWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		89E680A5243156AC0050BF01 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		89E680A6243156B20050BF01 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				89E680AF2431598C0050BF01 /* EpicPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89E680A7243156C10050BF01 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89E680B124315A060050BF01 /* EpicInputInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		89E680A8243156CE0050BF01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89E680AB243158480050BF01 /* EpicView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95416BD6C2A95DF9A616D745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72F0CABB134C37641807A103 /* Pods-YSpace.debug.xcconfig */,
+				81B0480AA78ADEA8D8B6B55B /* Pods-YSpace.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8905540E23E44F190058F758 /* YSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8905542323E44F1C0058F758 /* Build configuration list for PBXNativeTarget "YSpace" */;
+			buildPhases = (
+				68EC344C8442440EA3177A01 /* [CP] Check Pods Manifest.lock */,
+				8905540B23E44F190058F758 /* Sources */,
+				8905540C23E44F190058F758 /* Frameworks */,
+				8905540D23E44F190058F758 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSpace;
+			productName = YSpace;
+			productReference = 8905540F23E44F190058F758 /* YSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8905540723E44F190058F758 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Rafael Scalzo";
+				TargetAttributes = {
+					8905540E23E44F190058F758 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 8905540A23E44F190058F758 /* Build configuration list for PBXProject "YSpace" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 8905540623E44F190058F758;
+			productRefGroup = 8905541023E44F190058F758 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8905540E23E44F190058F758 /* YSpace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8905540D23E44F190058F758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8905541F23E44F1C0058F758 /* LaunchScreen.storyboard in Resources */,
+				89CCF52F242857DE001F84D4 /* Localizable.strings in Resources */,
+				8905541C23E44F1C0058F758 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68EC344C8442440EA3177A01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YSpace-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8905540B23E44F190058F758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CCF54B242B0E7D001F84D4 /* EarthDateQueryInput.swift in Sources */,
+				89E680A1243154170050BF01 /* SearchLibraryInputParameters.swift in Sources */,
+				89CCF50924282BD7001F84D4 /* Network.swift in Sources */,
+				8915D08023E4597C008F2A73 /* SpaceMainInputPresenter.swift in Sources */,
+				89E680AC243158480050BF01 /* EpicView.swift in Sources */,
+				89E6809924313B110050BF01 /* ImageAndVideoLibraryProtocols.swift in Sources */,
+				89C49709242FC38C0087BE9D /* URLComposer.swift in Sources */,
+				89E680B02431598C0050BF01 /* EpicPresenter.swift in Sources */,
+				89CCF5362428645C001F84D4 /* PictureOfTheDayInputInteractor.swift in Sources */,
+				89CCF5202428492B001F84D4 /* UILabel+Extensions.swift in Sources */,
+				89CCF4BB24245502001F84D4 /* RequestQueue.swift in Sources */,
+				8905541323E44F190058F758 /* AppDelegate.swift in Sources */,
+				89E680B224315A060050BF01 /* EpicInputInteractor.swift in Sources */,
+				8915D07E23E451C9008F2A73 /* SpaceMainProtocols.swift in Sources */,
+				89E6809F24314E5E0050BF01 /* ImageAndVideoLibraryWireframe.swift in Sources */,
+				8915D08423E459B2008F2A73 /* SpaceMainWireframe.swift in Sources */,
+				89C49707242FBE540087BE9D /* RoverName.swift in Sources */,
+				89CCF54D242B0EBC001F84D4 /* MarsRoverProtocols.swift in Sources */,
+				89CCF57D242D86EA001F84D4 /* PictureOfTheDayQueryParameters.swift in Sources */,
+				89E680AE243158FE0050BF01 /* EpicWireframe.swift in Sources */,
+				8905541523E44F190058F758 /* SceneDelegate.swift in Sources */,
+				89CCF51424283BD0001F84D4 /* PictureOfTheDayCollectionCell.swift in Sources */,
+				89CCF4B924244FD5001F84D4 /* NASAAPI.PictureOfTheDay.swift in Sources */,
+				8915D08A23E47692008F2A73 /* NASAAPI.Curiosity.swift in Sources */,
+				89CCF52624284C77001F84D4 /* UITextView+Extensions.swift in Sources */,
+				8936C168242EFAB5004CFEE3 /* MarsRoverWireframe.swift in Sources */,
+				89CCF52A2428569E001F84D4 /* String+Extensions.swift in Sources */,
+				89E6809B24314D600050BF01 /* ImageAndVideoLibraryInputInteractor.swift in Sources */,
+				89C4970B242FCD550087BE9D /* Date+Extensions.swift in Sources */,
+				89CCF4BD24245B8A001F84D4 /* UserDefaults.swift in Sources */,
+				89CCF53424286241001F84D4 /* PictureOfTheDayProtocols.swift in Sources */,
+				89CCF524242849E8001F84D4 /* UIView+Extensions.swift in Sources */,
+				89CCF522242849A1001F84D4 /* UIImageView+Extensions.swift in Sources */,
+				89CCF52824284E5D001F84D4 /* VideoView.swift in Sources */,
+				89CCF53A242865A6001F84D4 /* PictureOfTheDayWireframe.swift in Sources */,
+				89CCF54F242B0EDB001F84D4 /* MarsRoverInputInteractor.swift in Sources */,
+				89E680AA243156F60050BF01 /* EpicProtocols.swift in Sources */,
+				8915D08823E46410008F2A73 /* NASAAPI.swift in Sources */,
+				89CCF50C24283B6D001F84D4 /* PictureOfTheDayCollectionView.swift in Sources */,
+				89E6809724313AF10050BF01 /* ImageAndVideoLibraryView.swift in Sources */,
+				8915D08223E45993008F2A73 /* SpaceMainPresenter.swift in Sources */,
+				89E6808E2430834D0050BF01 /* NASAAPI.ImageAndVideoLibrary.swift in Sources */,
+				89CCF53824286509001F84D4 /* PictureOfTheDayPresenter.swift in Sources */,
+				89C4970D243074240087BE9D /* MartianSolInputParameters.swift in Sources */,
+				8936C164242EE4F3004CFEE3 /* UIViewController+Extensions.swift in Sources */,
+				89E6809D24314D910050BF01 /* ImageAndVideoLibraryPresenter.swift in Sources */,
+				8926C47E2467DAA0009E492F /* ViewModifier.swift in Sources */,
+				8915D07A23E4512C008F2A73 /* SpaceMainView.swift in Sources */,
+				8936C166242EFA6D004CFEE3 /* MarsRoverPresenter.swift in Sources */,
+				89CCF551242B0FDC001F84D4 /* MarsRoverView.swift in Sources */,
+				89CCF51D24283CFA001F84D4 /* PictureOfTheDayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8905541D23E44F1C0058F758 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8905541E23E44F1C0058F758 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		89CCF531242857DE001F84D4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CCF530242857DE001F84D4 /* en */,
+				89CCF532242857F4001F84D4 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8905542123E44F1C0058F758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8905542223E44F1C0058F758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8905542423E44F1C0058F758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F0CABB134C37641807A103 /* Pods-YSpace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BULGWQVW95;
+				INFOPLIST_FILE = YSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafascalzo-com.guithub.YSpace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8905542523E44F1C0058F758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B0480AA78ADEA8D8B6B55B /* Pods-YSpace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BULGWQVW95;
+				INFOPLIST_FILE = YSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafascalzo-com.guithub.YSpace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8905540A23E44F190058F758 /* Build configuration list for PBXProject "YSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8905542123E44F1C0058F758 /* Debug */,
+				8905542223E44F1C0058F758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8905542323E44F1C0058F758 /* Build configuration list for PBXNativeTarget "YSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8905542423E44F1C0058F758 /* Debug */,
+				8905542523E44F1C0058F758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8905540723E44F190058F758 /* Project object */;
+}

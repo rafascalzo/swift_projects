@@ -1,0 +1,11 @@
+/* 
+  infoPlist.strings
+  Marvel
+
+  Created by rafaeldelegate on 7/18/19.
+  Copyright © 2019 rafaeldelegate. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "Marvel_Facts";
+//"NSHumanReadableCopyright" = "Copyright_©_2019_Rafael_Computing_Inc._All_rights_reserved";

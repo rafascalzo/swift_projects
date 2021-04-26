@@ -1,0 +1,6 @@
+framework module Pods_Cosmo_City {
+  umbrella header "Pods-Cosmo City-umbrella.h"
+
+  export *
+  module * { export * }
+}

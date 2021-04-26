@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+        <array key="Prototype.ttf">
+            <string>Prototype</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImeiViewController" customModule="FStreet" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonGenerateImei" destination="Q2f-rs-8pZ" id="sKo-HL-gH5"/>
+                <outlet property="buttonVerifyAndContinue" destination="f13-VK-5Xy" id="1mz-Id-qNV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="yGr-ZM-Uvt">
+                    <rect key="frame" x="14" y="44" width="740" height="897"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5bx-lr-yTF">
+                            <rect key="frame" x="226.5" y="0.0" width="287" height="212"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pdg-BQ-0I5">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="212"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="si-ligth" translatesAutoresizingMaskIntoConstraints="NO" id="u11-mg-9lQ">
+                                            <rect key="frame" x="102" y="0.0" width="83" height="86"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="33.5" id="6cl-fZ-TLJ">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="83"/>
+                                                </constraint>
+                                                <constraint firstAttribute="height" constant="34.5" id="v6p-MU-XLC">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="86"/>
+                                                </constraint>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FStreet" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0W-bf-Yo6">
+                                            <rect key="frame" x="12.5" y="86" width="262" height="86"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="34.5" id="6BG-DK-LEZ">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="86"/>
+                                                </constraint>
+                                                <constraint firstAttribute="width" constant="105" id="LCh-0h-FiJ">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="262"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Prototype" family="Prototype" pointSize="29"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Prototype" family="Prototype" pointSize="72"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarme Comunitário" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQQ-JW-em7">
+                                            <rect key="frame" x="0.0" y="172" width="287" height="40"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="16" id="1SI-af-UqC">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                                                </constraint>
+                                                <constraint firstAttribute="width" constant="115" id="BtO-51-Ozp">
+                                                    <variation key="heightClass=regular-widthClass=regular" constant="287"/>
+                                                </constraint>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=regular">
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="32"/>
+                                            </variation>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="i6e-Gv-xSL">
+                            <rect key="frame" x="5" y="252" width="730" height="333"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Para realizar o seu cadastro é preciso gerar um IMEI e cadastrar no seu perfil web" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QL-bJ-rq4">
+                                    <rect key="frame" x="17.5" y="0.0" width="695" height="171"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="66" id="7nN-Gy-Udv">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="171"/>
+                                        </constraint>
+                                        <constraint firstAttribute="width" constant="278" id="Rhh-cQ-tdR">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="695"/>
+                                        </constraint>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="45"/>
+                                    </variation>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2f-rs-8pZ">
+                                    <rect key="frame" x="0.0" y="201" width="730" height="132"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="292" id="JyI-l2-Lum">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="730"/>
+                                        </constraint>
+                                        <constraint firstAttribute="height" constant="53" id="wzE-D6-mXV">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="132"/>
+                                        </constraint>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                    <state key="normal" title="GERAR IMEI AGORA">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.031372549020000001" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="50"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="buttonGeneratImei:" destination="-1" eventType="touchUpInside" id="OxD-PV-nzB"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Jh4-R1-WrV">
+                            <rect key="frame" x="5" y="625" width="730" height="272"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Já inseriu o código na web, clique em prosseguir para validar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5W-gW-oba">
+                                    <rect key="frame" x="1.5" y="0.0" width="727" height="110"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="44" id="AXi-Yb-CHu">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="110"/>
+                                        </constraint>
+                                        <constraint firstAttribute="width" constant="291" id="e0i-eC-tfE">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="727"/>
+                                        </constraint>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="45"/>
+                                    </variation>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f13-VK-5Xy">
+                                    <rect key="frame" x="0.0" y="140" width="730" height="132"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="292" id="1EG-MU-cOQ">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="730"/>
+                                        </constraint>
+                                        <constraint firstAttribute="height" constant="53" id="yFY-eg-JYs">
+                                            <variation key="heightClass=regular-widthClass=regular" constant="132"/>
+                                        </constraint>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
+                                    <state key="normal" title="VERIFICAR E CONTINUAR">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.031372549020000001" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <variation key="heightClass=regular-widthClass=regular">
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="50"/>
+                                    </variation>
+                                    <connections>
+                                        <action selector="buttonVerifyAndContinue:" destination="-1" eventType="touchUpInside" id="AK2-nG-BJ9"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.80000000000000004" green="0.031372549020000001" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Aun-70-D3v" firstAttribute="trailing" secondItem="yGr-ZM-Uvt" secondAttribute="trailing" constant="14" id="4Vf-rH-y7T"/>
+                <constraint firstItem="yGr-ZM-Uvt" firstAttribute="leading" secondItem="Aun-70-D3v" secondAttribute="leading" constant="14" id="BMa-wW-4uG"/>
+                <constraint firstItem="yGr-ZM-Uvt" firstAttribute="top" secondItem="Aun-70-D3v" secondAttribute="top" constant="24" id="ipK-6W-BH6"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Aun-70-D3v"/>
+            <variation key="heightClass=regular-widthClass=regular">
+                <color key="backgroundColor" red="0.80000000000000004" green="0.031372549020000001" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </variation>
+            <point key="canvasLocation" x="131.25" y="113.75"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="si-ligth" width="487" height="492"/>
+    </resources>
+</document>

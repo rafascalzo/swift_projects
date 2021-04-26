@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0FE76922CC652A00CFE427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0FE76822CC652A00CFE427 /* AppDelegate.swift */; };
+		AF0FE76B22CC652A00CFE427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0FE76A22CC652A00CFE427 /* ViewController.swift */; };
+		AF0FE77122CC652A00CFE427 /* Wheater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF0FE76F22CC652A00CFE427 /* Wheater.xcdatamodeld */; };
+		AF0FE77322CC652C00CFE427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0FE77222CC652C00CFE427 /* Assets.xcassets */; };
+		AF0FE77622CC652C00CFE427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0FE77422CC652C00CFE427 /* LaunchScreen.storyboard */; };
+		AF0FE78422CC66A000CFE427 /* WheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0FE78322CC66A000CFE427 /* WheaterViewController.swift */; };
+		AF0FE78622CC679900CFE427 /* WheaterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0FE78522CC679900CFE427 /* WheaterApi.swift */; };
+		D4D47E73C552C8C4B6314A59 /* Pods_Wheater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83439DEB28E4ADAB9B5FE3D1 /* Pods_Wheater.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003D115B67EB562CCF95DD25 /* Pods-Wheater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheater.release.xcconfig"; path = "Target Support Files/Pods-Wheater/Pods-Wheater.release.xcconfig"; sourceTree = "<group>"; };
+		6B1FFB47F344AA4A43982159 /* Pods-Wheater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wheater.debug.xcconfig"; path = "Target Support Files/Pods-Wheater/Pods-Wheater.debug.xcconfig"; sourceTree = "<group>"; };
+		83439DEB28E4ADAB9B5FE3D1 /* Pods_Wheater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wheater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0FE76522CC652A00CFE427 /* Wheater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0FE76822CC652A00CFE427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF0FE76A22CC652A00CFE427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF0FE77022CC652A00CFE427 /* Wheater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wheater.xcdatamodel; sourceTree = "<group>"; };
+		AF0FE77222CC652C00CFE427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF0FE77522CC652C00CFE427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF0FE77722CC652C00CFE427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF0FE78322CC66A000CFE427 /* WheaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheaterViewController.swift; sourceTree = "<group>"; };
+		AF0FE78522CC679900CFE427 /* WheaterApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheaterApi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF0FE76222CC652A00CFE427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D47E73C552C8C4B6314A59 /* Pods_Wheater.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25AA9A13689B1113FD6E0A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83439DEB28E4ADAB9B5FE3D1 /* Pods_Wheater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58DDA89452E3AF6C12249A8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B1FFB47F344AA4A43982159 /* Pods-Wheater.debug.xcconfig */,
+				003D115B67EB562CCF95DD25 /* Pods-Wheater.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF0FE75C22CC652A00CFE427 = {
+			isa = PBXGroup;
+			children = (
+				AF0FE76722CC652A00CFE427 /* Wheater */,
+				AF0FE76622CC652A00CFE427 /* Products */,
+				58DDA89452E3AF6C12249A8D /* Pods */,
+				25AA9A13689B1113FD6E0A08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0FE76622CC652A00CFE427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE76522CC652A00CFE427 /* Wheater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF0FE76722CC652A00CFE427 /* Wheater */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE77E22CC666500CFE427 /* Wheater Main */,
+				AF0FE77D22CC655600CFE427 /* Supporting Files */,
+			);
+			path = Wheater;
+			sourceTree = "<group>";
+		};
+		AF0FE77D22CC655600CFE427 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE76822CC652A00CFE427 /* AppDelegate.swift */,
+				AF0FE76A22CC652A00CFE427 /* ViewController.swift */,
+				AF0FE77222CC652C00CFE427 /* Assets.xcassets */,
+				AF0FE77422CC652C00CFE427 /* LaunchScreen.storyboard */,
+				AF0FE77722CC652C00CFE427 /* Info.plist */,
+				AF0FE76F22CC652A00CFE427 /* Wheater.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF0FE77E22CC666500CFE427 /* Wheater Main */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE78222CC668800CFE427 /* model */,
+				AF0FE78122CC668300CFE427 /* view */,
+				AF0FE77F22CC667100CFE427 /* controller */,
+			);
+			path = "Wheater Main";
+			sourceTree = "<group>";
+		};
+		AF0FE77F22CC667100CFE427 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE78322CC66A000CFE427 /* WheaterViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		AF0FE78122CC668300CFE427 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AF0FE78222CC668800CFE427 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AF0FE78522CC679900CFE427 /* WheaterApi.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF0FE76422CC652A00CFE427 /* Wheater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF0FE77A22CC652C00CFE427 /* Build configuration list for PBXNativeTarget "Wheater" */;
+			buildPhases = (
+				7E501EBBCCC43629296904BB /* [CP] Check Pods Manifest.lock */,
+				AF0FE76122CC652A00CFE427 /* Sources */,
+				AF0FE76222CC652A00CFE427 /* Frameworks */,
+				AF0FE76322CC652A00CFE427 /* Resources */,
+				87AA2591210E91367AA35831 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheater;
+			productName = Wheater;
+			productReference = AF0FE76522CC652A00CFE427 /* Wheater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0FE75D22CC652A00CFE427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rafaeldelegate;
+				TargetAttributes = {
+					AF0FE76422CC652A00CFE427 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AF0FE76022CC652A00CFE427 /* Build configuration list for PBXProject "Wheater" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF0FE75C22CC652A00CFE427;
+			productRefGroup = AF0FE76622CC652A00CFE427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF0FE76422CC652A00CFE427 /* Wheater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF0FE76322CC652A00CFE427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0FE77622CC652C00CFE427 /* LaunchScreen.storyboard in Resources */,
+				AF0FE77322CC652C00CFE427 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E501EBBCCC43629296904BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wheater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87AA2591210E91367AA35831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheater/Pods-Wheater-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wheater/Pods-Wheater-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wheater/Pods-Wheater-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF0FE76122CC652A00CFE427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0FE76B22CC652A00CFE427 /* ViewController.swift in Sources */,
+				AF0FE78422CC66A000CFE427 /* WheaterViewController.swift in Sources */,
+				AF0FE78622CC679900CFE427 /* WheaterApi.swift in Sources */,
+				AF0FE77122CC652A00CFE427 /* Wheater.xcdatamodeld in Sources */,
+				AF0FE76922CC652A00CFE427 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF0FE77422CC652C00CFE427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF0FE77522CC652C00CFE427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF0FE77822CC652C00CFE427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF0FE77922CC652C00CFE427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF0FE77B22CC652C00CFE427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1FFB47F344AA4A43982159 /* Pods-Wheater.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Wheater/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelviewcontroller.Wheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF0FE77C22CC652C00CFE427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003D115B67EB562CCF95DD25 /* Pods-Wheater.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Wheater/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rafaelviewcontroller.Wheater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF0FE76022CC652A00CFE427 /* Build configuration list for PBXProject "Wheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0FE77822CC652C00CFE427 /* Debug */,
+				AF0FE77922CC652C00CFE427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF0FE77A22CC652C00CFE427 /* Build configuration list for PBXNativeTarget "Wheater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0FE77B22CC652C00CFE427 /* Debug */,
+				AF0FE77C22CC652C00CFE427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF0FE76F22CC652A00CFE427 /* Wheater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF0FE77022CC652A00CFE427 /* Wheater.xcdatamodel */,
+			);
+			currentVersion = AF0FE77022CC652A00CFE427 /* Wheater.xcdatamodel */;
+			path = Wheater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF0FE75D22CC652A00CFE427 /* Project object */;
+}

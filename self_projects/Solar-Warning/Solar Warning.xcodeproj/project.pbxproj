@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CAD60844175F4FA740C73A1 /* Pods_Solar_Warning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E757867C4EB03D37A0BB634B /* Pods_Solar_Warning.framework */; };
+		892B646823F0C4C700864039 /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892B646723F0C4C700864039 /* TabBarProtocols.swift */; };
+		892B647123F0C59300864039 /* MainViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892B647023F0C59300864039 /* MainViewProtocols.swift */; };
+		892B647323F0C60000864039 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892B647223F0C60000864039 /* MainView.swift */; };
+		892B647523F0C6B300864039 /* MainViewWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892B647423F0C6B300864039 /* MainViewWireframe.swift */; };
+		892B647723F0C6EB00864039 /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892B647623F0C6EB00864039 /* MainViewPresenter.swift */; };
+		89FD6CE023F24A8200B465D0 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FD6CDF23F24A8200B465D0 /* UserView.swift */; };
+		89FD6CE223F24A9C00B465D0 /* UserViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FD6CE123F24A9C00B465D0 /* UserViewProtocols.swift */; };
+		89FD6CE423F24B6600B465D0 /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FD6CE323F24B6600B465D0 /* UserPresenter.swift */; };
+		89FD6CE623F24BB800B465D0 /* UserWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FD6CE523F24BB800B465D0 /* UserWireframe.swift */; };
+		89FD6CE823F24C1500B465D0 /* UserInputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FD6CE723F24C1500B465D0 /* UserInputInteractor.swift */; };
+		AF18F22823804BA600096210 /* RealTimeUVIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18F22723804BA600096210 /* RealTimeUVIndex.swift */; };
+		AF18F22A23805DE500096210 /* OpenUVAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18F22923805DE500096210 /* OpenUVAPI.swift */; };
+		AF192C0D2381FD8C00F247A1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF192C0C2381FD8C00F247A1 /* CollectionViewCell.swift */; };
+		AF7B2EE8237FAD290028BDCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B2EE7237FAD290028BDCC /* AppDelegate.swift */; };
+		AF7B2EEA237FAD290028BDCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B2EE9237FAD290028BDCC /* SceneDelegate.swift */; };
+		AF7B2EF1237FAD2B0028BDCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7B2EF0237FAD2B0028BDCC /* Assets.xcassets */; };
+		AF7B2EF4237FAD2B0028BDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7B2EF2237FAD2B0028BDCC /* LaunchScreen.storyboard */; };
+		AF7B2EFF237FB6AD0028BDCC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B2EFE237FB6AD0028BDCC /* Extensions.swift */; };
+		AF84843623807A0B000B8390 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84843523807A0B000B8390 /* Network.swift */; };
+		AF84843823807A39000B8390 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84843723807A39000B8390 /* ErrorModel.swift */; };
+		AF84843A23807A62000B8390 /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84843923807A62000B8390 /* HTTPStatus.swift */; };
+		AF84843C2380888C000B8390 /* EncodableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF84843B2380888C000B8390 /* EncodableObject.swift */; };
+		AF848443238097F0000B8390 /* UVIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF848442238097F0000B8390 /* UVIndex.swift */; };
+		AFE73C0A2384A86E00756F8A /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE73C092384A86E00756F8A /* Constraints.swift */; };
+		AFFF98062380E58F0001F78A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF98052380E58F0001F78A /* User.swift */; };
+		AFFF980E2380E8E10001F78A /* Solar_WarningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF980D2380E8E10001F78A /* Solar_WarningTests.swift */; };
+		AFFF98172380F0A10001F78A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF98162380F0A10001F78A /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFFF98102380E8E10001F78A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF7B2EDC237FAD290028BDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7B2EE3237FAD290028BDCC;
+			remoteInfo = "Solar Warning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		892B646723F0C4C700864039 /* TabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocols.swift; sourceTree = "<group>"; };
+		892B647023F0C59300864039 /* MainViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewProtocols.swift; sourceTree = "<group>"; };
+		892B647223F0C60000864039 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		892B647423F0C6B300864039 /* MainViewWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewWireframe.swift; sourceTree = "<group>"; };
+		892B647623F0C6EB00864039 /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		89FD6CDF23F24A8200B465D0 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		89FD6CE123F24A9C00B465D0 /* UserViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewProtocols.swift; sourceTree = "<group>"; };
+		89FD6CE323F24B6600B465D0 /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		89FD6CE523F24BB800B465D0 /* UserWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWireframe.swift; sourceTree = "<group>"; };
+		89FD6CE723F24C1500B465D0 /* UserInputInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputInteractor.swift; sourceTree = "<group>"; };
+		AF18F22723804BA600096210 /* RealTimeUVIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeUVIndex.swift; sourceTree = "<group>"; };
+		AF18F22923805DE500096210 /* OpenUVAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenUVAPI.swift; sourceTree = "<group>"; };
+		AF192C0C2381FD8C00F247A1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AF7B2EE4237FAD290028BDCC /* Solar Warning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solar Warning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7B2EE7237FAD290028BDCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7B2EE9237FAD290028BDCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF7B2EF0237FAD2B0028BDCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7B2EF3237FAD2B0028BDCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7B2EF5237FAD2B0028BDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7B2EFE237FB6AD0028BDCC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AF84843523807A0B000B8390 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		AF84843723807A39000B8390 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		AF84843923807A62000B8390 /* HTTPStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatus.swift; sourceTree = "<group>"; };
+		AF84843B2380888C000B8390 /* EncodableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodableObject.swift; sourceTree = "<group>"; };
+		AF848442238097F0000B8390 /* UVIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIndex.swift; sourceTree = "<group>"; };
+		AFE73C092384A86E00756F8A /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		AFFF98052380E58F0001F78A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AFFF980B2380E8E10001F78A /* Solar WarningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solar WarningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFF980D2380E8E10001F78A /* Solar_WarningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solar_WarningTests.swift; sourceTree = "<group>"; };
+		AFFF980F2380E8E10001F78A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFF98162380F0A10001F78A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B63C28FD498B586F93A8BC72 /* Pods-Solar Warning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar Warning.release.xcconfig"; path = "Target Support Files/Pods-Solar Warning/Pods-Solar Warning.release.xcconfig"; sourceTree = "<group>"; };
+		E757867C4EB03D37A0BB634B /* Pods_Solar_Warning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solar_Warning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBCBC71BFFC9533B1D8B0F6 /* Pods-Solar Warning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solar Warning.debug.xcconfig"; path = "Target Support Files/Pods-Solar Warning/Pods-Solar Warning.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF7B2EE1237FAD290028BDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAD60844175F4FA740C73A1 /* Pods_Solar_Warning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF98082380E8E10001F78A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ECB82982746A0092E8B34CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E757867C4EB03D37A0BB634B /* Pods_Solar_Warning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76C92F96FF7884749BB8A5F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCBCBC71BFFC9533B1D8B0F6 /* Pods-Solar Warning.debug.xcconfig */,
+				B63C28FD498B586F93A8BC72 /* Pods-Solar Warning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		892B646023F0B99F00864039 /* Main TabBar Scene */ = {
+			isa = PBXGroup;
+			children = (
+				892B646623F0B9FF00864039 /* View */,
+				892B646523F0B9F400864039 /* Interactor */,
+				892B646423F0B9E300864039 /* Presenter */,
+				892B646323F0B9D900864039 /* Entity */,
+				892B646223F0B9CE00864039 /* Wireframe */,
+				892B646123F0B9C600864039 /* Protocols */,
+			);
+			path = "Main TabBar Scene";
+			sourceTree = "<group>";
+		};
+		892B646123F0B9C600864039 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				892B646723F0C4C700864039 /* TabBarProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		892B646223F0B9CE00864039 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		892B646323F0B9D900864039 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		892B646423F0B9E300864039 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		892B646523F0B9F400864039 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		892B646623F0B9FF00864039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF98162380F0A10001F78A /* TabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		892B646923F0C52C00864039 /* Main View Scene */ = {
+			isa = PBXGroup;
+			children = (
+				892B646F23F0C56200864039 /* View */,
+				892B646E23F0C55C00864039 /* Interactor */,
+				892B646D23F0C55500864039 /* Presenter */,
+				892B646C23F0C54D00864039 /* Entity */,
+				892B646B23F0C54600864039 /* Wireframe */,
+				892B646A23F0C53F00864039 /* Protocols */,
+			);
+			path = "Main View Scene";
+			sourceTree = "<group>";
+		};
+		892B646A23F0C53F00864039 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				892B647023F0C59300864039 /* MainViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		892B646B23F0C54600864039 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				892B647423F0C6B300864039 /* MainViewWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		892B646C23F0C54D00864039 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		892B646D23F0C55500864039 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				892B647623F0C6EB00864039 /* MainViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		892B646E23F0C55C00864039 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		892B646F23F0C56200864039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				892B647223F0C60000864039 /* MainView.swift */,
+				AF192C0C2381FD8C00F247A1 /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		892B647823F0C79600864039 /* User View Scene */ = {
+			isa = PBXGroup;
+			children = (
+				892B647E23F0C90A00864039 /* View */,
+				892B647D23F0C90300864039 /* Interactor */,
+				892B647C23F0C8FB00864039 /* Presenter */,
+				892B647B23F0C8ED00864039 /* Entity */,
+				892B647A23F0C8E400864039 /* Wireframe */,
+				892B647923F0C7BA00864039 /* Protocols */,
+			);
+			path = "User View Scene";
+			sourceTree = "<group>";
+		};
+		892B647923F0C7BA00864039 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				89FD6CE123F24A9C00B465D0 /* UserViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		892B647A23F0C8E400864039 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				89FD6CE523F24BB800B465D0 /* UserWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		892B647B23F0C8ED00864039 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF98052380E58F0001F78A /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		892B647C23F0C8FB00864039 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				89FD6CE323F24B6600B465D0 /* UserPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		892B647D23F0C90300864039 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				89FD6CE723F24C1500B465D0 /* UserInputInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		892B647E23F0C90A00864039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89FD6CDF23F24A8200B465D0 /* UserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF18F226238049EB00096210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF18F22723804BA600096210 /* RealTimeUVIndex.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF7B2EDB237FAD290028BDCC = {
+			isa = PBXGroup;
+			children = (
+				AF7B2EE6237FAD290028BDCC /* Solar Warning */,
+				AFFF980C2380E8E10001F78A /* Solar WarningTests */,
+				AF7B2EE5237FAD290028BDCC /* Products */,
+				76C92F96FF7884749BB8A5F6 /* Pods */,
+				0ECB82982746A0092E8B34CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF7B2EE5237FAD290028BDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B2EE4237FAD290028BDCC /* Solar Warning.app */,
+				AFFF980B2380E8E10001F78A /* Solar WarningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF7B2EE6237FAD290028BDCC /* Solar Warning */ = {
+			isa = PBXGroup;
+			children = (
+				892B647823F0C79600864039 /* User View Scene */,
+				892B646923F0C52C00864039 /* Main View Scene */,
+				892B646023F0B99F00864039 /* Main TabBar Scene */,
+				AFFF98042380E54E0001F78A /* ViewModel */,
+				AF8484442380D774000B8390 /* View */,
+				AF18F226238049EB00096210 /* Model */,
+				AF7B2EFD237FB51C0028BDCC /* Service */,
+				AF7B2EFC237FB02B0028BDCC /* Root Controller */,
+				AF7B2EFB237FAF740028BDCC /* Supporting Files */,
+			);
+			path = "Solar Warning";
+			sourceTree = "<group>";
+		};
+		AF7B2EFB237FAF740028BDCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B2EF0237FAD2B0028BDCC /* Assets.xcassets */,
+				AF7B2EF2237FAD2B0028BDCC /* LaunchScreen.storyboard */,
+				AF7B2EF5237FAD2B0028BDCC /* Info.plist */,
+				AF7B2EFE237FB6AD0028BDCC /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF7B2EFC237FB02B0028BDCC /* Root Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B2EE7237FAD290028BDCC /* AppDelegate.swift */,
+				AF7B2EE9237FAD290028BDCC /* SceneDelegate.swift */,
+			);
+			path = "Root Controller";
+			sourceTree = "<group>";
+		};
+		AF7B2EFD237FB51C0028BDCC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF84843D238092E1000B8390 /* OpenUVAPI */,
+				AFE73C092384A86E00756F8A /* Constraints.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AF84843D238092E1000B8390 /* OpenUVAPI */ = {
+			isa = PBXGroup;
+			children = (
+				AF84843F23809734000B8390 /* Network */,
+				AF84843E2380972A000B8390 /* API */,
+			);
+			path = OpenUVAPI;
+			sourceTree = "<group>";
+		};
+		AF84843E2380972A000B8390 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AF18F22923805DE500096210 /* OpenUVAPI.swift */,
+				AF848442238097F0000B8390 /* UVIndex.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AF84843F23809734000B8390 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AF84843523807A0B000B8390 /* Network.swift */,
+				AF84843723807A39000B8390 /* ErrorModel.swift */,
+				AF84843923807A62000B8390 /* HTTPStatus.swift */,
+				AF84843B2380888C000B8390 /* EncodableObject.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AF8484442380D774000B8390 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFFF98042380E54E0001F78A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AFFF980C2380E8E10001F78A /* Solar WarningTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFF980D2380E8E10001F78A /* Solar_WarningTests.swift */,
+				AFFF980F2380E8E10001F78A /* Info.plist */,
+			);
+			path = "Solar WarningTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF7B2EE3237FAD290028BDCC /* Solar Warning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF7B2EF8237FAD2B0028BDCC /* Build configuration list for PBXNativeTarget "Solar Warning" */;
+			buildPhases = (
+				68683363D7F684F7D76E4CE8 /* [CP] Check Pods Manifest.lock */,
+				AF7B2EE0237FAD290028BDCC /* Sources */,
+				AF7B2EE1237FAD290028BDCC /* Frameworks */,
+				AF7B2EE2237FAD290028BDCC /* Resources */,
+				3EF64719B1E6FE141D256785 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solar Warning";
+			productName = "Solar Warning";
+			productReference = AF7B2EE4237FAD290028BDCC /* Solar Warning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFFF980A2380E8E10001F78A /* Solar WarningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFF98122380E8E10001F78A /* Build configuration list for PBXNativeTarget "Solar WarningTests" */;
+			buildPhases = (
+				AFFF98072380E8E10001F78A /* Sources */,
+				AFFF98082380E8E10001F78A /* Frameworks */,
+				AFFF98092380E8E10001F78A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFF98112380E8E10001F78A /* PBXTargetDependency */,
+			);
+			name = "Solar WarningTests";
+			productName = "Solar WarningTests";
+			productReference = AFFF980B2380E8E10001F78A /* Solar WarningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF7B2EDC237FAD290028BDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = rafaeldelegate;
+				TargetAttributes = {
+					AF7B2EE3237FAD290028BDCC = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AFFF980A2380E8E10001F78A = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AF7B2EE3237FAD290028BDCC;
+					};
+				};
+			};
+			buildConfigurationList = AF7B2EDF237FAD290028BDCC /* Build configuration list for PBXProject "Solar Warning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF7B2EDB237FAD290028BDCC;
+			productRefGroup = AF7B2EE5237FAD290028BDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7B2EE3237FAD290028BDCC /* Solar Warning */,
+				AFFF980A2380E8E10001F78A /* Solar WarningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF7B2EE2237FAD290028BDCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF7B2EF4237FAD2B0028BDCC /* LaunchScreen.storyboard in Resources */,
+				AF7B2EF1237FAD2B0028BDCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF98092380E8E10001F78A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF64719B1E6FE141D256785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solar Warning/Pods-Solar Warning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solar Warning/Pods-Solar Warning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Solar Warning/Pods-Solar Warning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68683363D7F684F7D76E4CE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solar Warning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF7B2EE0237FAD290028BDCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892B647323F0C60000864039 /* MainView.swift in Sources */,
+				892B647723F0C6EB00864039 /* MainViewPresenter.swift in Sources */,
+				892B646823F0C4C700864039 /* TabBarProtocols.swift in Sources */,
+				AF848443238097F0000B8390 /* UVIndex.swift in Sources */,
+				AF18F22823804BA600096210 /* RealTimeUVIndex.swift in Sources */,
+				AF84843A23807A62000B8390 /* HTTPStatus.swift in Sources */,
+				AF7B2EE8237FAD290028BDCC /* AppDelegate.swift in Sources */,
+				89FD6CE023F24A8200B465D0 /* UserView.swift in Sources */,
+				AF7B2EEA237FAD290028BDCC /* SceneDelegate.swift in Sources */,
+				892B647523F0C6B300864039 /* MainViewWireframe.swift in Sources */,
+				AFFF98062380E58F0001F78A /* User.swift in Sources */,
+				AFE73C0A2384A86E00756F8A /* Constraints.swift in Sources */,
+				89FD6CE623F24BB800B465D0 /* UserWireframe.swift in Sources */,
+				AF7B2EFF237FB6AD0028BDCC /* Extensions.swift in Sources */,
+				89FD6CE823F24C1500B465D0 /* UserInputInteractor.swift in Sources */,
+				892B647123F0C59300864039 /* MainViewProtocols.swift in Sources */,
+				AF84843623807A0B000B8390 /* Network.swift in Sources */,
+				AF84843823807A39000B8390 /* ErrorModel.swift in Sources */,
+				AF192C0D2381FD8C00F247A1 /* CollectionViewCell.swift in Sources */,
+				AFFF98172380F0A10001F78A /* TabBarViewController.swift in Sources */,
+				AF84843C2380888C000B8390 /* EncodableObject.swift in Sources */,
+				AF18F22A23805DE500096210 /* OpenUVAPI.swift in Sources */,
+				89FD6CE223F24A9C00B465D0 /* UserViewProtocols.swift in Sources */,
+				89FD6CE423F24B6600B465D0 /* UserPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFF98072380E8E10001F78A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFF980E2380E8E10001F78A /* Solar_WarningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFFF98112380E8E10001F78A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF7B2EE3237FAD290028BDCC /* Solar Warning */;
+			targetProxy = AFFF98102380E8E10001F78A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF7B2EF2237FAD2B0028BDCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF7B2EF3237FAD2B0028BDCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF7B2EF6237FAD2B0028BDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF7B2EF7237FAD2B0028BDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7B2EF9237FAD2B0028BDCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBCBC71BFFC9533B1D8B0F6 /* Pods-Solar Warning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solar Warning/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafascalzo-com.guithub.Solar-Warning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF7B2EFA237FAD2B0028BDCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63C28FD498B586F93A8BC72 /* Pods-Solar Warning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solar Warning/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafascalzo-com.guithub.Solar-Warning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFFF98132380E8E10001F78A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solar WarningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafascalzo-com.guithub.Solar-WarningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar Warning.app/Solar Warning";
+			};
+			name = Debug;
+		};
+		AFFF98142380E8E10001F78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Solar WarningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rafascalzo-com.guithub.Solar-WarningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solar Warning.app/Solar Warning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF7B2EDF237FAD290028BDCC /* Build configuration list for PBXProject "Solar Warning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7B2EF6237FAD2B0028BDCC /* Debug */,
+				AF7B2EF7237FAD2B0028BDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF7B2EF8237FAD2B0028BDCC /* Build configuration list for PBXNativeTarget "Solar Warning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF7B2EF9237FAD2B0028BDCC /* Debug */,
+				AF7B2EFA237FAD2B0028BDCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFF98122380E8E10001F78A /* Build configuration list for PBXNativeTarget "Solar WarningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFF98132380E8E10001F78A /* Debug */,
+				AFFF98142380E8E10001F78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF7B2EDC237FAD290028BDCC /* Project object */;
+}

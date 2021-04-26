@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53EF815C22AC474200EC805B /* si-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814122AC474200EC805B /* si-dark.png */; };
+		53EF815D22AC474200EC805B /* si-ligth.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814222AC474200EC805B /* si-ligth.png */; };
+		53EF815E22AC474200EC805B /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814522AC474200EC805B /* Lato-HeavyItalic.ttf */; };
+		53EF815F22AC474200EC805B /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814622AC474200EC805B /* Lato-Italic.ttf */; };
+		53EF816022AC474200EC805B /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814722AC474200EC805B /* Lato-LightItalic.ttf */; };
+		53EF816122AC474200EC805B /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814822AC474200EC805B /* Lato-Thin.ttf */; };
+		53EF816222AC474200EC805B /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814922AC474200EC805B /* Lato-Bold.ttf */; };
+		53EF816322AC474200EC805B /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814A22AC474200EC805B /* Lato-Black.ttf */; };
+		53EF816422AC474200EC805B /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814B22AC474200EC805B /* Lato-SemiboldItalic.ttf */; };
+		53EF816522AC474200EC805B /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814C22AC474200EC805B /* Lato-HairlineItalic.ttf */; };
+		53EF816622AC474200EC805B /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814D22AC474200EC805B /* Lato-Regular.ttf */; };
+		53EF816722AC474200EC805B /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814E22AC474200EC805B /* Lato-Hairline.ttf */; };
+		53EF816822AC474200EC805B /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF814F22AC474200EC805B /* Lato-BlackItalic.ttf */; };
+		53EF816922AC474200EC805B /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815022AC474200EC805B /* Lato-Semibold.ttf */; };
+		53EF816A22AC474200EC805B /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815122AC474200EC805B /* Lato-MediumItalic.ttf */; };
+		53EF816B22AC474200EC805B /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815222AC474200EC805B /* OFL.txt */; };
+		53EF816C22AC474200EC805B /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815322AC474200EC805B /* Lato-Heavy.ttf */; };
+		53EF816D22AC474200EC805B /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815422AC474200EC805B /* README.txt */; };
+		53EF816E22AC474200EC805B /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815522AC474200EC805B /* Lato-BoldItalic.ttf */; };
+		53EF816F22AC474200EC805B /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815622AC474200EC805B /* Lato-Light.ttf */; };
+		53EF817022AC474200EC805B /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815722AC474200EC805B /* Lato-Medium.ttf */; };
+		53EF817122AC474200EC805B /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815822AC474200EC805B /* Lato-ThinItalic.ttf */; };
+		53EF817222AC474200EC805B /* Prototype.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815A22AC474200EC805B /* Prototype.txt */; };
+		53EF817322AC474200EC805B /* Prototype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53EF815B22AC474200EC805B /* Prototype.ttf */; };
+		53F1963C22A82EAE0081E00D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F1963B22A82EAE0081E00D /* AppDelegate.swift */; };
+		53F1964422A82EAE0081E00D /* FStreet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53F1964222A82EAE0081E00D /* FStreet.xcdatamodeld */; };
+		53F1964622A82EB10081E00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F1964522A82EB10081E00D /* Assets.xcassets */; };
+		53F1964922A82EB10081E00D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F1964722A82EB10081E00D /* LaunchScreen.storyboard */; };
+		53F1965622A82F4F0081E00D /* ImeiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F1965422A82F4F0081E00D /* ImeiViewController.swift */; };
+		53F1965722A82F4F0081E00D /* ImeiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53F1965522A82F4F0081E00D /* ImeiViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53EF814122AC474200EC805B /* si-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "si-dark.png"; sourceTree = "<group>"; };
+		53EF814222AC474200EC805B /* si-ligth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "si-ligth.png"; sourceTree = "<group>"; };
+		53EF814522AC474200EC805B /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		53EF814622AC474200EC805B /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		53EF814722AC474200EC805B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		53EF814822AC474200EC805B /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		53EF814922AC474200EC805B /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		53EF814A22AC474200EC805B /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		53EF814B22AC474200EC805B /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		53EF814C22AC474200EC805B /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		53EF814D22AC474200EC805B /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		53EF814E22AC474200EC805B /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		53EF814F22AC474200EC805B /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		53EF815022AC474200EC805B /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		53EF815122AC474200EC805B /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		53EF815222AC474200EC805B /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		53EF815322AC474200EC805B /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		53EF815422AC474200EC805B /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		53EF815522AC474200EC805B /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		53EF815622AC474200EC805B /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		53EF815722AC474200EC805B /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		53EF815822AC474200EC805B /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		53EF815A22AC474200EC805B /* Prototype.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Prototype.txt; sourceTree = "<group>"; };
+		53EF815B22AC474200EC805B /* Prototype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prototype.ttf; sourceTree = "<group>"; };
+		53F1963822A82EAE0081E00D /* FStreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FStreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F1963B22A82EAE0081E00D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53F1964322A82EAE0081E00D /* FStreet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FStreet.xcdatamodel; sourceTree = "<group>"; };
+		53F1964522A82EB10081E00D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F1964822A82EB10081E00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F1964A22A82EB10081E00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F1965422A82F4F0081E00D /* ImeiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImeiViewController.swift; sourceTree = "<group>"; };
+		53F1965522A82F4F0081E00D /* ImeiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImeiViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F1963522A82EAE0081E00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53EF813F22AC474200EC805B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53EF814022AC474200EC805B /* icons */,
+				53EF814322AC474200EC805B /* fonts */,
+			);
+			name = Assets;
+			path = FStreet/Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		53EF814022AC474200EC805B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				53EF814122AC474200EC805B /* si-dark.png */,
+				53EF814222AC474200EC805B /* si-ligth.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		53EF814322AC474200EC805B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				53EF814422AC474200EC805B /* Lato2OFL */,
+				53EF815922AC474200EC805B /* prototype */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		53EF814422AC474200EC805B /* Lato2OFL */ = {
+			isa = PBXGroup;
+			children = (
+				53EF814522AC474200EC805B /* Lato-HeavyItalic.ttf */,
+				53EF814622AC474200EC805B /* Lato-Italic.ttf */,
+				53EF814722AC474200EC805B /* Lato-LightItalic.ttf */,
+				53EF814822AC474200EC805B /* Lato-Thin.ttf */,
+				53EF814922AC474200EC805B /* Lato-Bold.ttf */,
+				53EF814A22AC474200EC805B /* Lato-Black.ttf */,
+				53EF814B22AC474200EC805B /* Lato-SemiboldItalic.ttf */,
+				53EF814C22AC474200EC805B /* Lato-HairlineItalic.ttf */,
+				53EF814D22AC474200EC805B /* Lato-Regular.ttf */,
+				53EF814E22AC474200EC805B /* Lato-Hairline.ttf */,
+				53EF814F22AC474200EC805B /* Lato-BlackItalic.ttf */,
+				53EF815022AC474200EC805B /* Lato-Semibold.ttf */,
+				53EF815122AC474200EC805B /* Lato-MediumItalic.ttf */,
+				53EF815222AC474200EC805B /* OFL.txt */,
+				53EF815322AC474200EC805B /* Lato-Heavy.ttf */,
+				53EF815422AC474200EC805B /* README.txt */,
+				53EF815522AC474200EC805B /* Lato-BoldItalic.ttf */,
+				53EF815622AC474200EC805B /* Lato-Light.ttf */,
+				53EF815722AC474200EC805B /* Lato-Medium.ttf */,
+				53EF815822AC474200EC805B /* Lato-ThinItalic.ttf */,
+			);
+			path = Lato2OFL;
+			sourceTree = "<group>";
+		};
+		53EF815922AC474200EC805B /* prototype */ = {
+			isa = PBXGroup;
+			children = (
+				53EF815A22AC474200EC805B /* Prototype.txt */,
+				53EF815B22AC474200EC805B /* Prototype.ttf */,
+			);
+			path = prototype;
+			sourceTree = "<group>";
+		};
+		53F1962F22A82EAE0081E00D = {
+			isa = PBXGroup;
+			children = (
+				53F1963A22A82EAE0081E00D /* FStreet */,
+				53F1963922A82EAE0081E00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F1963922A82EAE0081E00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F1963822A82EAE0081E00D /* FStreet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F1963A22A82EAE0081E00D /* FStreet */ = {
+			isa = PBXGroup;
+			children = (
+				53F1963B22A82EAE0081E00D /* AppDelegate.swift */,
+				53F1965022A82EF70081E00D /* screen-imei */,
+				53F1964522A82EB10081E00D /* Assets.xcassets */,
+				53F1964722A82EB10081E00D /* LaunchScreen.storyboard */,
+				53F1964A22A82EB10081E00D /* Info.plist */,
+				53F1964222A82EAE0081E00D /* FStreet.xcdatamodeld */,
+			);
+			path = FStreet;
+			sourceTree = "<group>";
+		};
+		53F1965022A82EF70081E00D /* screen-imei */ = {
+			isa = PBXGroup;
+			children = (
+				53F1965322A82F2D0081E00D /* model */,
+				53F1965222A82F250081E00D /* view */,
+				53F1965122A82F130081E00D /* controller */,
+				53EF813F22AC474200EC805B /* Assets */,
+			);
+			path = "screen-imei";
+			sourceTree = "<group>";
+		};
+		53F1965122A82F130081E00D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				53F1965422A82F4F0081E00D /* ImeiViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		53F1965222A82F250081E00D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				53F1965522A82F4F0081E00D /* ImeiViewController.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		53F1965322A82F2D0081E00D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F1963722A82EAE0081E00D /* FStreet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F1964D22A82EB10081E00D /* Build configuration list for PBXNativeTarget "FStreet" */;
+			buildPhases = (
+				53F1963422A82EAE0081E00D /* Sources */,
+				53F1963522A82EAE0081E00D /* Frameworks */,
+				53F1963622A82EAE0081E00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FStreet;
+			productName = FStreet;
+			productReference = 53F1963822A82EAE0081E00D /* FStreet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F1963022A82EAE0081E00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Rafael;
+				TargetAttributes = {
+					53F1963722A82EAE0081E00D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53F1963322A82EAE0081E00D /* Build configuration list for PBXProject "FStreet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F1962F22A82EAE0081E00D;
+			productRefGroup = 53F1963922A82EAE0081E00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F1963722A82EAE0081E00D /* FStreet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F1963622A82EAE0081E00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EF816C22AC474200EC805B /* Lato-Heavy.ttf in Resources */,
+				53EF817022AC474200EC805B /* Lato-Medium.ttf in Resources */,
+				53EF816822AC474200EC805B /* Lato-BlackItalic.ttf in Resources */,
+				53F1964922A82EB10081E00D /* LaunchScreen.storyboard in Resources */,
+				53EF816222AC474200EC805B /* Lato-Bold.ttf in Resources */,
+				53EF816122AC474200EC805B /* Lato-Thin.ttf in Resources */,
+				53EF815F22AC474200EC805B /* Lato-Italic.ttf in Resources */,
+				53EF817122AC474200EC805B /* Lato-ThinItalic.ttf in Resources */,
+				53EF815D22AC474200EC805B /* si-ligth.png in Resources */,
+				53EF816F22AC474200EC805B /* Lato-Light.ttf in Resources */,
+				53EF817322AC474200EC805B /* Prototype.ttf in Resources */,
+				53EF816422AC474200EC805B /* Lato-SemiboldItalic.ttf in Resources */,
+				53EF816022AC474200EC805B /* Lato-LightItalic.ttf in Resources */,
+				53EF816522AC474200EC805B /* Lato-HairlineItalic.ttf in Resources */,
+				53EF816B22AC474200EC805B /* OFL.txt in Resources */,
+				53EF816A22AC474200EC805B /* Lato-MediumItalic.ttf in Resources */,
+				53EF816322AC474200EC805B /* Lato-Black.ttf in Resources */,
+				53EF815C22AC474200EC805B /* si-dark.png in Resources */,
+				53EF816922AC474200EC805B /* Lato-Semibold.ttf in Resources */,
+				53EF816E22AC474200EC805B /* Lato-BoldItalic.ttf in Resources */,
+				53F1964622A82EB10081E00D /* Assets.xcassets in Resources */,
+				53EF816722AC474200EC805B /* Lato-Hairline.ttf in Resources */,
+				53EF817222AC474200EC805B /* Prototype.txt in Resources */,
+				53EF816622AC474200EC805B /* Lato-Regular.ttf in Resources */,
+				53EF815E22AC474200EC805B /* Lato-HeavyItalic.ttf in Resources */,
+				53EF816D22AC474200EC805B /* README.txt in Resources */,
+				53F1965722A82F4F0081E00D /* ImeiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F1963422A82EAE0081E00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1964422A82EAE0081E00D /* FStreet.xcdatamodeld in Sources */,
+				53F1963C22A82EAE0081E00D /* AppDelegate.swift in Sources */,
+				53F1965622A82F4F0081E00D /* ImeiViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53F1964722A82EB10081E00D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F1964822A82EB10081E00D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F1964B22A82EB10081E00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53F1964C22A82EB10081E00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F1964E22A82EB10081E00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FStreet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulltime.alarmecomunitario.FStreet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F1964F22A82EB10081E00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FStreet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fulltime.alarmecomunitario.FStreet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F1963322A82EAE0081E00D /* Build configuration list for PBXProject "FStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1964B22A82EB10081E00D /* Debug */,
+				53F1964C22A82EB10081E00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F1964D22A82EB10081E00D /* Build configuration list for PBXNativeTarget "FStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1964E22A82EB10081E00D /* Debug */,
+				53F1964F22A82EB10081E00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53F1964222A82EAE0081E00D /* FStreet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53F1964322A82EAE0081E00D /* FStreet.xcdatamodel */,
+			);
+			currentVersion = 53F1964322A82EAE0081E00D /* FStreet.xcdatamodel */;
+			path = FStreet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53F1963022A82EAE0081E00D /* Project object */;
+}

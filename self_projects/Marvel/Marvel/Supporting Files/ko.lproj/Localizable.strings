@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Marvel
+
+  Created by rafaeldelegate on 7/18/19.
+  Copyright © 2019 rafaeldelegate. All rights reserved.
+*/
+"Search your favorite hero" = "좋아하는 영웅을 검색하십시오.";
+"dark" = "어두운";
+"Back to menu" = "메뉴로 돌아 가기";
+"Dark Theme" = "다크 테마";
+"Marvel Quiz" = "놀라운 일 퀴즈";
+"Reveal image" = "이미지 공개";
+"Try again" = "다시 시도하십시오.";
+"Score" = "점수";
+"Comic Tips" = "만화 팁";
+"Series Tips" = "시리즈 팁";
+"Events Tips" = "이벤트 팁";
+"Appeared in comics" = "만화에 등장";
+"Appeared in events" = "이벤트에 등장";
+"Appeared in series" = "시리즈로 등장";
+"Sorry" = "죄송합니다";
+"Unexpected error" = "예상치 못한 에러";
+"Understood" = "이해";
+"Our servers are temporarily unavailable" = "Google 서버를 일시적으로 사용할 수 없습니다.";

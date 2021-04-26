@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Marvel
+
+  Created by rafaeldelegate on 7/18/19.
+  Copyright © 2019 rafaeldelegate. All rights reserved.
+*/
+"Search your favorite hero" = "Pesquise seu herói favorito";
+"dark" = "escuro";
+"Back to menu" = "Voltar ao menu";
+"Dark Theme" = "Tema escuro";
+"Marvel Quiz" = "Teste Marvel";
+"Reveal image" = "Revealar imagem";
+"Try again" = "Tentar novamente";
+"Score" = "Pontuação";
+"Comic Tips" = "Dicas de revistas";
+"Series Tips" = "Dicas de Serie";
+"Events Tips" = "Dicas de Evento";
+"Appeared in comics" = "Apareceu nos comics";
+"Appeared in events" = "Apareceu nos events";
+"Appeared in series" = "Apareceu nas series";
+"Sorry" = "Desculpe";
+"Unexpected error" = "Erro inesperado";
+"Understood" = "Entendido";
+"Our servers are temporarily unavailable" = "Nossos servidores estão temporariamente indisponíveis";

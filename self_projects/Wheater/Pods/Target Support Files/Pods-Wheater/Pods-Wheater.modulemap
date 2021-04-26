@@ -1,0 +1,6 @@
+framework module Pods_Wheater {
+  umbrella header "Pods-Wheater-umbrella.h"
+
+  export *
+  module * { export * }
+}

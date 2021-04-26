@@ -1,0 +1,6 @@
+module Pods_YSpace {
+  umbrella header "Pods-YSpace-umbrella.h"
+
+  export *
+  module * { export * }
+}
